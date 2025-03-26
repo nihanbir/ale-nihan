@@ -27,7 +27,7 @@ const RSVPBanner: React.FC<RSVPBannerProps> = ({
               {subtitle}
             </p>
             <Link to="/rsvp">
-              <Button className="bg-wedding-primary hover:bg-wedding-primary/90 text-white transition-all px-8 py-6 rounded-md">
+              <Button className="bg-wedding-primary hover:bg-wedding-accent/90 text-white transition-all px-8 py-6 rounded-md">
                 {buttonText}
               </Button>
             </Link>

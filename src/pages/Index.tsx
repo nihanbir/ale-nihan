@@ -10,10 +10,10 @@ import Footer from '@/components/layout/Footer';
 import RSVPBanner from '@/components/shared/RSVPBanner';
 
 import {
-    WEDDING_DATE,
-    WEDDING_DATE_TIME,
-    WEDDING_VENUE,
-    WEDDING_ADDRESS
+  WEDDING_DATE,
+  WEDDING_DATE_TIME,
+  WEDDING_VENUE,
+  WEDDING_ADDRESS, CEREMONY_DETAILS, RECEPTION_DETAILS
 } from '@/constants/wedding';
 
 const Index = () => {
@@ -85,9 +85,9 @@ const Index = () => {
                 </div>
                 <h3 className="font-serif text-xl text-wedding-dark mb-2 text-center">Ceremony & Reception</h3>
                 <p className="text-wedding-muted text-center text-sm">
-                  Saturday, July 19, 2025
-                  <br />Ceremony: 4:00 PM
-                  <br />Reception: 5:30 PM
+                  {WEDDING_DATE}
+                  <br />Ceremony: {CEREMONY_DETAILS.time}
+                  <br />Reception: {RECEPTION_DETAILS.time}
                 </p>
               </AnimatedSection>
               
@@ -127,7 +127,8 @@ const Index = () => {
                 </div>
                 <h3 className="font-serif text-xl text-wedding-dark mb-2 text-center">Accommodations</h3>
                 <p className="text-wedding-muted text-center text-sm">
-                  We will welcome 30 of our guests at Fredriksborg Hotell
+                  We will be able to accommodate up to 30 guests at the wedding venue for the wedding night, with priority
+                  given to those traveling from abroad.
                   <br />
                   <br />
                 </p>

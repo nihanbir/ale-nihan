@@ -1,5 +1,5 @@
 // src/constants/wedding.ts
-export const WEDDING_DATE = "July 19 2025";
+export const WEDDING_DATE = "Saturday, July 19 2025";
 export const WEDDING_DATE_TIME = "15:30";
 export const WEDDING_LOCATION = "Värmdö, Stockholm";
 export const WEDDING_VENUE = "Fredriksborg Hotell & Restaurang";

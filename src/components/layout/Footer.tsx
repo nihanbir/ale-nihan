@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
           </div>
           
           <p className="text-xs text-wedding-muted text-center">
-            © {currentYear} Our Wedding. All rights reserved.
+            © {currentYear} Nihan Bir & Ale Flärd. All rights reserved.
           </p>
         </div>
       </div>
