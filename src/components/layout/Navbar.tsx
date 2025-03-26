@@ -102,7 +102,7 @@ const Navbar: React.FC = () => {
               <Button 
                 variant="outline" 
                 onClick={logout}
-                className="border-wedding-primary text-wedding-primary hover:bg-wedding-primary hover:text-white transition-all duration-300"
+                className="text-wedding-primary hover:bg-wedding-primary hover:text-wedding-primary hover:bg-wedding-secondary/70 transition-all duration-300"
               >
                 Sign Out
               </Button>
@@ -110,7 +110,7 @@ const Navbar: React.FC = () => {
               <Link to="/rsvp">
                 <Button 
                   variant="outline"
-                  className="border-wedding-primary text-white bg-wedding-primary hover:text-white transition-all duration-300"
+                  className="text-white bg-wedding-primary hover:text-wedding-primary hover:bg-wedding-secondary/70 transition-all duration-300"
                 >
                   Sign In
                 </Button>

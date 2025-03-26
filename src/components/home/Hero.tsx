@@ -66,7 +66,7 @@ const Hero: React.FC<HeroProps> = ({
           )}
         >
           <p 
-            className="text-white/80 font-serif italic mb-4 tracking-wide"
+            className="text-wedding-secondary/95 font-serif italic mb-4 tracking-wide"
             style={{ transitionDelay: '200ms' }}
           >
             We're getting married
@@ -85,11 +85,11 @@ const Hero: React.FC<HeroProps> = ({
             className="flex flex-col items-center space-y-3 mb-10"
             style={{ transitionDelay: '600ms' }}
           >
-            <p className="text-white/90 font-medium tracking-wider uppercase text-sm md:text-base">
+            <p className="text-secondary/95 font-medium tracking-wider uppercase bg-wedding-dark/70 text-sm md:text-base">
               {date}
             </p>
             <div className="w-12 h-px bg-wedding-primary"></div>
-            <p className="text-white/90 font-medium tracking-wider uppercase text-sm md:text-base">
+            <p className="text-secondary/95 font-medium tracking-wider uppercase bg-wedding-dark/70 text-sm md:text-base">
               {location}
             </p>
           </div>

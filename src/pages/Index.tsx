@@ -48,7 +48,7 @@ const Index = () => {
                   We're creating a celebration that reflects our love story – elegant yet relaxed, thoughtful and joyful. Our hope is to create beautiful memories with the people who mean the most to us, and to begin this next chapter surrounded by love.
                 </p>
                 <Link to="/details">
-                  <Button className="bg-wedding-primary hover:bg-wedding-primary/90 text-white transition-all">
+                  <Button className="bg-wedding-primary hover:bg-wedding-accent/90 text-white transition-all">
                     Explore Details
                   </Button>
                 </Link>
@@ -77,8 +77,8 @@ const Index = () => {
                 </div>
                 <h3 className="font-serif text-xl text-wedding-dark mb-2 text-center">Ceremony & Reception</h3>
                 <p className="text-wedding-muted text-center text-sm">
-                  Saturday, June 15, 2024
-                  <br />Ceremony: 3:00 PM
+                  Saturday, July 19, 2025
+                  <br />Ceremony: 4:00 PM
                   <br />Reception: 5:30 PM
                 </p>
               </AnimatedSection>
@@ -91,9 +91,9 @@ const Index = () => {
                 </div>
                 <h3 className="font-serif text-xl text-wedding-dark mb-2 text-center">Venue</h3>
                 <p className="text-wedding-muted text-center text-sm">
-                  Bella Vista Estate
-                  <br />123 Garden Lane
-                  <br />New York, NY 10001
+                  Fredriksborg Hotell & Restaurang
+                  <br />Fredriksborgsvägen 17
+                  <br />139 90 Värmdö
                 </p>
               </AnimatedSection>
               
@@ -105,9 +105,9 @@ const Index = () => {
                 </div>
                 <h3 className="font-serif text-xl text-wedding-dark mb-2 text-center">Menu</h3>
                 <p className="text-wedding-muted text-center text-sm">
-                  Farm-to-table cuisine
-                  <br />Cocktail hour
-                  <br />Dinner & dessert
+                  TBA
+                  <br />
+                  <br />
                 </p>
               </AnimatedSection>
               
@@ -119,16 +119,16 @@ const Index = () => {
                 </div>
                 <h3 className="font-serif text-xl text-wedding-dark mb-2 text-center">Accommodations</h3>
                 <p className="text-wedding-muted text-center text-sm">
-                  Special rates at local hotels
-                  <br />Transportation provided
-                  <br />Details on website
+                  We will welcome 30 of our guests at Fredriksborg Hotell
+                  <br />
+                  <br />
                 </p>
               </AnimatedSection>
             </div>
             
             <div className="text-center mt-12">
               <Link to="/details">
-                <Button variant="outline" className="border-wedding-primary text-wedding-primary hover:bg-wedding-primary hover:text-white transition-all">
+                <Button variant="outline" className="bg-wedding-primary hover:bg-wedding-accent/90 hover:text-white text-white transition-all">
                   See Full Details
                 </Button>
               </Link>
@@ -147,7 +147,7 @@ const Index = () => {
                 We would be honored by your presence as we celebrate our love. Please let us know if you'll be joining us by completing the RSVP form.
               </p>
               <Link to="/rsvp">
-                <Button size="lg" className="bg-wedding-primary hover:bg-wedding-primary/90 text-white transition-all px-8 py-6 rounded-md">
+                <Button size="lg" className="bg-wedding-primary hover:bg-wedding-accent/90 text-white transition-all px-8 py-6 rounded-md">
                   RSVP Now
                 </Button>
               </Link>
