@@ -99,12 +99,12 @@ const Hero: React.FC<HeroProps> = ({
             style={{ transitionDelay: '800ms' }}
           >
             <Link to="/details">
-              <Button className="bg-wedding-primary hover:bg-wedding-primary/90 text-white transition-all px-6 py-5 rounded-md">
+              <Button className="bg-wedding-primary hover:bg-wedding-secondary/90 hover:text-wedding-primary text-white transition-all px-6 py-5 rounded-md">
                 View Details
               </Button>
             </Link>
             <Link to="/rsvp">
-              <Button variant="outline" className="bg-transparent border border-white hover:bg-white/10 text-white transition-all px-6 py-5 rounded-md">
+              <Button className="bg-wedding-primary hover:bg-wedding-secondary/90 hover:text-wedding-primary text-white transition-all px-6 py-5 rounded-md">
                 RSVP Now
               </Button>
             </Link>

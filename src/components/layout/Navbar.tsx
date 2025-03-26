@@ -61,28 +61,36 @@ const Navbar: React.FC = () => {
       <nav 
         className={cn(
           'fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 py-4',
-          isScrolled ? 'bg-white/80 backdrop-blur-md shadow-soft' : 'bg-transparent'
+          isScrolled ? 'bg-wedding-accent/50 backdrop-blur-md shadow-soft' : 'bg-transparent'
         )}
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <Link 
             to="/" 
-            className="font-serif text-2xl text-wedding-dark font-medium transition-colors hover:text-wedding-primary"
+            className={cn("font-serif text-2xl font-medium transition-colors",
+                location.pathname === '/'
+                    ? 'text-wedding-primary'
+                    : 'text-wedding-dark hover:text-wedding-primary'
+            )}
           >
             Our Wedding
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8 ">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
                 className={cn(
-                  'flex items-center gap-2 text-sm font-medium transition-colors link-underline',
-                  location.pathname === link.path 
+                  'flex items-center gap-2 text-2l font-medium transition-colors link-underline',
+                    location.pathname === '/'
+                        ? 'text-wedding-primary'
+                        : 'text-wedding-dark hover:text-wedding-primary',
+                    location.pathname === link.path
                     ? 'text-wedding-primary' 
-                    : 'text-wedding-dark hover:text-wedding-primary'
+                    : '',
+                    
                 )}
               >
                 {link.icon}
@@ -102,7 +110,7 @@ const Navbar: React.FC = () => {
               <Link to="/rsvp">
                 <Button 
                   variant="outline"
-                  className="border-wedding-primary text-wedding-primary hover:bg-wedding-primary hover:text-white transition-all duration-300"
+                  className="border-wedding-primary text-white bg-wedding-primary hover:text-white transition-all duration-300"
                 >
                   Sign In
                 </Button>
@@ -112,7 +120,7 @@ const Navbar: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <button 
-            className="md:hidden text-wedding-dark" 
+            className="md:hidden text-wedding-primary" 
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
