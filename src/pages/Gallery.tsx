@@ -15,37 +15,37 @@ const Gallery = () => {
   const galleryImages = [
     {
       id: 1,
-      url: 'https://images.unsplash.com/photo-1472396961693-142e6e269027?q=80&w=1200',
+      url: '',
       alt: 'Engagement photo 1',
       category: 'engagement'
     },
     {
       id: 2,
-      url: 'https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?q=80&w=1200',
+      url: '',
       alt: 'Engagement photo 2',
       category: 'engagement'
     },
     {
       id: 3,
-      url: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1200',
+      url: '',
       alt: 'Engagement photo 3',
       category: 'engagement'
     },
     {
       id: 4,
-      url: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200',
+      url: '',
       alt: 'Pre-wedding photo 1',
       category: 'pre-wedding'
     },
     {
       id: 5,
-      url: 'https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?q=80&w=1200',
+      url: '',
       alt: 'Pre-wedding photo 2',
       category: 'pre-wedding'
     },
     {
       id: 6,
-      url: 'https://images.unsplash.com/photo-1500673922987-e212871fec22?q=80&w=1200',
+      url: '',
       alt: 'Pre-wedding photo 3',
       category: 'pre-wedding'
     },
