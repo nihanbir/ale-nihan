@@ -15,9 +15,9 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({
-  names = { partner1: 'Sarah', partner2: 'Michael' },
-  date = 'June 15, 2024',
-  location = 'Bella Vista, New York'
+  names = { partner1: 'Nihan', partner2: 'Ale' },
+  date = 'July 19, 2025',
+  location = 'Värmdö, Stockholm'
 }) => {
   const [isLoaded, setIsLoaded] = useState(false);
 
