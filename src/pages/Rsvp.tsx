@@ -131,7 +131,7 @@ const Rsvp = () => {
                 </p>
                 <Button 
                   onClick={() => setIsAuthModalOpen(true)}
-                  className="bg-wedding-primary hover:bg-wedding-primary/90 text-white transition-all"
+                  className="bg-wedding-primary hover:bg-wedding-accent/90 text-white transition-all"
                 >
                   <User className="mr-2 h-4 w-4" />
                   Sign In / Register
@@ -275,7 +275,7 @@ const Rsvp = () => {
                     
                     <Button 
                       type="submit" 
-                      className="w-full bg-wedding-primary hover:bg-wedding-primary/90 text-white py-6"
+                      className="w-full bg-wedding-primary hover:bg-wedding-accent/90 text-white"
                     >
                       <Send className="mr-2 h-4 w-4" />
                       {hasExistingRsvp ? 'Update RSVP' : 'Submit RSVP'}
