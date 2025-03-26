@@ -34,11 +34,29 @@ const Hero: React.FC<HeroProps> = ({
 
   return (
     <div className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image with overlay */}
-      <div className="absolute inset-0 bg-cover bg-center bg-[url('https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=2000')]">
-        <div className="absolute inset-0 bg-black/20 backdrop-blur-[2px]"></div>
-      </div>
+      {/* Background with extended colors */}
+            <div className="absolute inset-0">
+              {/* Full-size blurred version for color extension */}
+              <div
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm"
+                style={{
+                    backgroundImage: `url('https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/us.jpg')`,
+                  filter: 'blur(8px) brightness(0.8)',
+                }}
+              />
       
+              {/* Main image with your preferred zoom */}
+              <div
+                className="absolute inset-0 bg-contain bg-center bg-no-repeat"
+                style={{
+                    backgroundImage: `url('https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/us.jpg')`,
+                  backgroundSize: '50%',
+                  maskImage: 'radial-gradient(circle at center, white 40%, transparent 50%)',
+                  WebkitMaskImage: 'radial-gradient(circle at center, white 30%, transparent 45%)',
+                }}
+              />
+              <div className="absolute inset-0 bg-black/20"></div>
+            </div>
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <div 
