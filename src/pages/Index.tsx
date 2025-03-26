@@ -7,6 +7,14 @@ import { Link } from 'react-router-dom';
 import { Calendar, MapPin, Users, Utensils } from 'lucide-react';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
+import RSVPBanner from '@/components/shared/RSVPBanner';
+
+import {
+    WEDDING_DATE,
+    WEDDING_DATE_TIME,
+    WEDDING_VENUE,
+    WEDDING_ADDRESS
+} from '@/constants/wedding';
 
 const Index = () => {
   return (
@@ -16,7 +24,7 @@ const Index = () => {
       <main className="flex-grow">
         <Hero 
           names={{ partner1: 'Nihan', partner2: 'Ale' }}
-          date="July 19, 2025"
+          date={WEDDING_DATE}
           location="Värmdö, Stockholm"
         />
         
