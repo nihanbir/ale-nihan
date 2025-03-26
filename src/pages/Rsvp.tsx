@@ -111,7 +111,7 @@ const Rsvp = () => {
               <h1 className="font-serif text-5xl text-wedding-dark mb-4">RSVP</h1>
               <div className="w-16 h-0.5 bg-wedding-primary mx-auto mb-8"></div>
               <p className="text-wedding-muted max-w-3xl mx-auto">
-                Please let us know if you'll be joining us on our special day. We kindly request your response by June 1, 2024.
+                Please let us know if you'll be joining us on our special day. We kindly request your response by June 30, 2025.
               </p>
             </AnimatedSection>
           </div>
@@ -297,7 +297,13 @@ const Rsvp = () => {
                 If you have any questions or need assistance with your RSVP, please don't hesitate to contact us.
               </p>
               <p className="text-wedding-dark font-medium">
-                Email: <a href="mailto:contact@ourwedding.com" className="text-wedding-primary hover:underline">contact@ourwedding.com</a>
+                <div>
+                  Email: <a href="mailto:nihan.bir@gmail.com" className="text-wedding-primary hover:underline">nihan.bir@gmail.com</a>
+                </div>
+                <div>
+                  Phone: <a className="text-wedding-primary hover:underline">+46707314374</a>
+                </div>
+                
               </p>
             </AnimatedSection>
           </div>
