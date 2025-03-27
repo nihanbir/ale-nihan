@@ -5,9 +5,8 @@
   <title>Redirecting...</title>
   <script>
     const base = '/ale-nihan/';
-    // Redirect to index.html while preserving the intended path
-    sessionStorage.redirect = location.pathname.replace(new RegExp(`^${base}`), '');
-    location.replace(base + location.search + location.hash);
+    sessionStorage.redirect = location.pathname;
+    location.href = base + 'index.html' + location.search + location.hash;
   </script>
 </head>
 <body>
