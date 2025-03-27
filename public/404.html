@@ -4,20 +4,10 @@
   <meta charset="utf-8">
   <title>Redirecting...</title>
   <script>
-    // Get the subpath from your Vite config
     const base = '/ale-nihan/';
-    const path = window.location.pathname;
-
-    // Preserve query parameters and hash
-    const search = window.location.search;
-    const hash = window.location.hash;
-
-    // Redirect to index.html with the correct path
-    if (!path.startsWith(base)) {
-      window.location.href = base + path.replace(/^\//, '') + search + hash;
-    } else {
-      window.location.href = base + 'index.html' + search + hash;
-    }
+    // Redirect to index.html while preserving the intended path
+    sessionStorage.redirect = location.pathname.replace(new RegExp(`^${base}`), '');
+    location.replace(base + 'index.html' + location.search + location.hash);
   </script>
 </head>
 <body>
