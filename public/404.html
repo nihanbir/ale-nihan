@@ -7,7 +7,7 @@
     const base = '/ale-nihan/';
     // Redirect to index.html while preserving the intended path
     sessionStorage.redirect = location.pathname.replace(new RegExp(`^${base}`), '');
-    location.replace(base + 'index.html' + location.search + location.hash);
+    location.replace(base + location.search + location.hash);
   </script>
 </head>
 <body>
