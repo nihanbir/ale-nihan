@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
               Gallery
             </Link>
             <Link 
-              to="/rsvp" 
+              to="https://tally.so/r/3NPJPW" 
               className="text-sm text-wedding-dark hover:text-wedding-primary transition-colors"
             >
               RSVP
