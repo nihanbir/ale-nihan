@@ -105,7 +105,7 @@ const Navbar: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
               >
-                <Button size="lg" className="bg-wedding-primary hover:bg-wedding-accent/90 text-white transition-all px-8 py-6 rounded-md">
+                <Button size="lg" className="bg-wedding-primary hover:bg-wedding-accent/90 hover:text-white text-white transition-all px-8 py-6 rounded-md">
                   {t('common.rsvpButton')}
                 </Button>
               </Link>

@@ -27,7 +27,7 @@ const LanguageSwitcher: React.FC = () => {
                 <Button
                     variant="outline"
                     size="sm"
-                    className="text-sm bg-transparent border border-wedding-primary/40 text-wedding-primary hover:bg-wedding-primary/10"
+                    className="text-sm bg-transparent border border-wedding-primary/40 text-wedding-primary hover:bg-wedding-primary/10 hover:text-white"
                 >
                     {getLanguageName(language)}
                     <ChevronDown size={16} className="ml-1" />
