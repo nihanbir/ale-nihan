@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { useAuth } from '@/contexts/AuthContext';
 import { 
   CalendarDays, 
   Heart, 
@@ -16,14 +15,12 @@ import { cn } from '@/lib/utils';
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const { user, isAuthenticated, logout } = useAuth();
   const location = useLocation();
 
   const navLinks = [
     { name: 'Home', path: '/', icon: <Heart size={18} /> },
     { name: 'Details', path: '/details', icon: <CalendarDays size={18} /> },
     { name: 'Gallery', path: '/gallery', icon: <GalleryHorizontal size={18} /> },
-    { name: 'RSVP', path: '/rsvp', icon: <User size={18} /> },
   ];
 
   useEffect(() => {
@@ -97,25 +94,15 @@ const Navbar: React.FC = () => {
                 <span>{link.name}</span>
               </Link>
             ))}
-
-            {isAuthenticated ? (
-              <Button 
-                variant="outline" 
-                onClick={logout}
-                className="text-wedding-primary hover:bg-wedding-primary hover:text-wedding-primary hover:bg-wedding-secondary/70 transition-all duration-300"
-              >
-                Sign Out
-              </Button>
-            ) : (
-              <Link to="/rsvp">
+            
+              <Link to="https://tally.so/r/3NPJPW">
                 <Button 
                   variant="outline"
                   className="text-white bg-wedding-primary hover:text-wedding-primary hover:bg-wedding-secondary/70 transition-all duration-300"
                 >
-                  Sign In
+                  RSVP
                 </Button>
               </Link>
-            )}
           </div>
 
           {/* Mobile Menu Button */}
@@ -151,25 +138,15 @@ const Navbar: React.FC = () => {
               <span>{link.name}</span>
             </Link>
           ))}
-
-          {isAuthenticated ? (
-            <Button 
-              variant="outline" 
-              onClick={logout}
-              className="w-full mt-4 border-wedding-primary text-wedding-primary hover:bg-wedding-primary hover:text-white"
-            >
-              Sign Out
-            </Button>
-          ) : (
-            <Link to="/rsvp" className="w-full mt-4">
+          
+            <Link to="https://tally.so/r/3NPJPW" className="w-full mt-4">
               <Button 
                 variant="outline"
                 className="w-full border-wedding-primary text-wedding-primary hover:bg-wedding-primary hover:text-white"
               >
-                Sign In
+                RSVP
               </Button>
             </Link>
-          )}
         </div>
       </div>
     </>
