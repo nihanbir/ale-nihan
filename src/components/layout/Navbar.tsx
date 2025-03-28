@@ -11,6 +11,7 @@ import {
   X
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import LanguageSwitcher from "@/components/layout/LanguageSwitcher";
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -61,6 +62,9 @@ const Navbar: React.FC = () => {
           isScrolled ? 'bg-wedding-accent/50 backdrop-blur-md shadow-soft' : 'bg-transparent'
         )}
       >
+        <div className="pl-4 flex items-center space-x-3">
+          <LanguageSwitcher />
+        </div>
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <Link 
             to="/" 
@@ -72,7 +76,7 @@ const Navbar: React.FC = () => {
           >
             Our Wedding
           </Link>
-
+          
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8 ">
             {navLinks.map((link) => (
@@ -114,6 +118,7 @@ const Navbar: React.FC = () => {
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
+        
       </nav>
 
       {/* Mobile Menu */}
