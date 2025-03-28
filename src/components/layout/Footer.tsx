@@ -38,9 +38,11 @@ const Footer: React.FC = () => {
             >
               Gallery
             </Link>
-            <Link 
-              to="https://tally.so/r/3NPJPW" 
-              className="text-sm text-wedding-dark hover:text-wedding-primary transition-colors"
+            <Link
+                to="https://tally.so/r/3NPJPW"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-wedding-dark hover:text-wedding-primary transition-colors"
             >
               RSVP
             </Link>

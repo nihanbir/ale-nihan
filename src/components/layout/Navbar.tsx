@@ -94,15 +94,16 @@ const Navbar: React.FC = () => {
                 <span>{link.name}</span>
               </Link>
             ))}
-            
-              <Link to="https://tally.so/r/3NPJPW">
-                <Button 
-                  variant="outline"
-                  className="text-white bg-wedding-primary hover:text-wedding-primary hover:bg-wedding-secondary/70 transition-all duration-300"
-                >
-                  RSVP
-                </Button>
-              </Link>
+
+            <Link
+                to="https://tally.so/r/3NPJPW"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              <Button size="lg" className="bg-wedding-primary hover:bg-wedding-accent/90 text-white transition-all px-8 py-6 rounded-md">
+                RSVP Now
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -138,15 +139,16 @@ const Navbar: React.FC = () => {
               <span>{link.name}</span>
             </Link>
           ))}
-          
-            <Link to="https://tally.so/r/3NPJPW" className="w-full mt-4">
-              <Button 
-                variant="outline"
-                className="w-full border-wedding-primary text-wedding-primary hover:bg-wedding-primary hover:text-white"
-              >
-                RSVP
-              </Button>
-            </Link>
+
+          <Link
+              to="https://tally.so/r/3NPJPW"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+            <Button size="lg" className="bg-wedding-primary hover:bg-wedding-accent/90 text-white transition-all px-8 py-6 rounded-md">
+              RSVP Now
+            </Button>
+          </Link>
         </div>
       </div>
     </>

@@ -154,7 +154,11 @@ const Index = () => {
               <p className="text-white/90 max-w-2xl mx-auto mb-10">
                 We would be honored by your presence as we celebrate our love. Please let us know if you'll be joining us by completing the RSVP form.
               </p>
-              <Link to="https://tally.so/r/3NPJPW">
+              <Link
+                  to="https://tally.so/r/3NPJPW"
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
                 <Button size="lg" className="bg-wedding-primary hover:bg-wedding-accent/90 text-white transition-all px-8 py-6 rounded-md">
                   RSVP Now
                 </Button>
