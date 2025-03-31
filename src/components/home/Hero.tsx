@@ -34,56 +34,66 @@ const Hero: React.FC<HeroProps> = ({
 
   return (
     <div className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background with extended colors */}
-            <div className="absolute inset-0">
-              {/* Full-size blurred version for color extension */}
-              <div
-                className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm"
-                style={{
-                    backgroundImage: `url('https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/us.jpg')`,
-                  filter: 'blur(8px) brightness(0.8)',
-                }}
-              />
-      
-              {/* Main image with your preferred zoom */}
-              <div
-                className="absolute inset-0 bg-contain bg-center bg-no-repeat"
-                style={{
-                    backgroundImage: `url('https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/us.jpg')`,
-                  backgroundSize: '50%',
-                  maskImage: 'radial-gradient(circle at center, white 40%, transparent 50%)',
-                  WebkitMaskImage: 'radial-gradient(circle at center, white 30%, transparent 45%)',
-                }}
-              />
-              <div className="absolute inset-0 bg-black/20"></div>
-            </div>
+      {/* Background container */}
+      <div className="absolute inset-0">
+        {/* Background image - visible on all screens, unblurred on mobile */}
+        <div
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{
+              backgroundImage: `url('https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/us.jpg')`
+            }}
+        />
+
+        {/* Blurred background extension - desktop only */}
+        <div
+            className="hidden sm:block absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm"
+            style={{
+              backgroundImage: `url('https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/us.jpg')`,
+              filter: 'blur(8px) brightness(0.8)'
+            }}
+        />
+
+        {/* Main image - hidden on mobile, visible on desktop */}
+        <div
+            className="hidden sm:block absolute inset-0 bg-center bg-no-repeat"
+            style={{
+              backgroundImage: `url('https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/us.jpg')`,
+              backgroundSize: '50%',
+              maskImage: 'radial-gradient(circle at center, white 40%, transparent 50%)',
+              WebkitMaskImage: 'radial-gradient(circle at center, white 30%, transparent 45%)'
+            }}
+        />
+
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/20"></div>
+      </div>
       {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <div 
-          className={cn(
-            "transition-all duration-1000 ease-out transform",
-            isLoaded ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-          )}
+      <div className="relative text-center px-6 max-w-4xl mx-auto pt-24 md:pt-24 lg:pt-32">
+        <div
+            className={cn(
+                "transition-all duration-1000 ease-out transform",
+                isLoaded ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            )}
         >
-          <p 
-            className="text-wedding-secondary/95 font-serif italic mb-4 tracking-wide"
-            style={{ transitionDelay: '200ms' }}
+          <p
+              className="text-wedding-secondary/95 font-serif italic mb-6 md:mb-8 tracking-wide"
+              style={{ transitionDelay: '200ms' }}
           >
             We're getting married
           </p>
-          
-          <h1 
-            className="font-serif text-4xl md:text-6xl lg:text-7xl text-white mb-6 font-light"
-            style={{ transitionDelay: '400ms' }}
+
+          <h1
+              className="font-serif text-4xl md:text-6xl lg:text-7xl text-white mb-8 md:mb-12 font-light"
+              style={{ transitionDelay: '400ms' }}
           >
-            <span className="block mb-2">{names.partner1}</span>
+            <span className="block mb-3 md:mb-4">{names.partner1}</span> {/* Increased bottom margin */}
             <span className="inline-block mx-2 md:mx-4 text-wedding-primary animate-pulse-soft">&</span>
-            <span className="block">{names.partner2}</span>
+            <span className="block mt-3 md:mt-4">{names.partner2}</span> {/* Added top margin */}
           </h1>
-          
-          <div 
-            className="flex flex-col items-center space-y-3 mb-10"
-            style={{ transitionDelay: '600ms' }}
+
+          <div
+              className="flex flex-col items-center space-y-4 mb-12 md:mb-16"
+              style={{ transitionDelay: '600ms' }}
           >
             <p className="text-secondary/95 font-medium tracking-wider uppercase bg-wedding-dark/70 text-sm md:text-base">
               {date}
@@ -93,10 +103,10 @@ const Hero: React.FC<HeroProps> = ({
               {location}
             </p>
           </div>
-          
-          <div 
-            className="flex flex-col sm:flex-row items-center justify-center gap-4"
-            style={{ transitionDelay: '800ms' }}
+
+          <div
+              className="flex flex-col sm:flex-row items-center justify-center gap-4 pb-8 md:pb-12"
+              style={{ transitionDelay: '800ms' }}
           >
             <Link to="/details">
               <Button className="bg-wedding-primary hover:bg-wedding-secondary/90 hover:text-wedding-primary text-white transition-all px-6 py-5 rounded-md">
