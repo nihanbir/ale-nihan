@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -5,7 +6,6 @@ import {
   CalendarDays,
   Heart,
   GalleryHorizontal,
-  User,
   Menu,
   X
 } from 'lucide-react';
@@ -63,9 +63,6 @@ const Navbar: React.FC = () => {
                 isScrolled ? 'bg-wedding-accent/50 backdrop-blur-md shadow-soft' : 'bg-transparent'
             )}
         >
-          <div className="pl-4 flex items-center space-x-3">
-            <LanguageSwitcher />
-          </div>
           <div className="max-w-7xl mx-auto flex items-center justify-between">
             <Link
                 to="/"
@@ -79,7 +76,7 @@ const Navbar: React.FC = () => {
             </Link>
 
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center space-x-8 ">
+            <div className="hidden md:flex items-center space-x-8">
               {navLinks.map((link) => (
                   <Link
                       key={link.path}
@@ -100,26 +97,32 @@ const Navbar: React.FC = () => {
                   </Link>
               ))}
 
-              <Link
-                  to="https://tally.so/r/3NPJPW"
-                  target="_blank"
-                  rel="noopener noreferrer"
-              >
-                <Button size="lg" className="bg-wedding-primary hover:bg-wedding-accent/90 hover:text-white text-white transition-all px-8 py-6 rounded-md">
-                  {t('common.rsvpButton')}
-                </Button>
-              </Link>
+              <div className="flex items-center space-x-4">
+                <LanguageSwitcher />
+
+                <Link
+                    to="https://tally.so/r/3NPJPW"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                  <Button size="lg" className="bg-wedding-primary hover:bg-wedding-accent/90 text-white transition-all px-8 py-6 rounded-md">
+                    {t('common.rsvpButton')}
+                  </Button>
+                </Link>
+              </div>
             </div>
 
-            {/* Mobile Menu Button */}
-            <button
-                className="md:hidden text-wedding-primary"
-                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            >
-              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
+            {/* Mobile Menu and Language Switcher for Mobile */}
+            <div className="md:hidden flex items-center space-x-4">
+              <LanguageSwitcher />
+              <button
+                  className="text-wedding-primary"
+                  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              >
+                {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
+            </div>
           </div>
-
         </nav>
 
         {/* Mobile Menu */}

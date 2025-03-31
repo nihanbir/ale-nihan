@@ -38,5 +38,13 @@ export default {
     details: {
         title: "Wedding Details",
         description: "Here's everything you need to know about our special day.",
+        ceremony: "Ceremony",
+        reception: "Reception",
+        menuTBA: "TBA",
+        accommodationsInfo: "We will be able to accommodate up to 30 guests at the wedding venue for the wedding night, with priority given to those traveling from abroad."
     },
+    footer: {
+        madeWithLove: "Made with love for our special day",
+        allRightsReserved: "All rights reserved."
+    }
 };

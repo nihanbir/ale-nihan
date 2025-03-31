@@ -38,5 +38,13 @@ export default {
     details: {
         title: "Bröllopsinformation",
         description: "Här är allt du behöver veta om vår speciella dag.",
+        ceremony: "Ceremoni",
+        reception: "Middag",
+        menuTBA: "Kommer att meddelas",
+        accommodationsInfo: "Vi kommer att kunna ta emot upp till 30 gäster på bröllopsstället för bröllopsnatten, med prioritet för dem som reser från utlandet."
     },
+    footer: {
+        madeWithLove: "Gjord med kärlek för vår speciella dag",
+        allRightsReserved: "Alla rättigheter förbehållna."
+    }
 };

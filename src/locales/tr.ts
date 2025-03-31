@@ -38,5 +38,13 @@ export default {
     details: {
         title: "Düğün Detayları",
         description: "Özel günümüz hakkında bilmeniz gereken her şey burada.",
+        ceremony: "Tören",
+        reception: "Resepsiyon",
+        menuTBA: "Bildirilecek",
+        accommodationsInfo: "Düğün mekanında düğün gecesi için 30 kişiye kadar konaklama sağlayabileceğiz, yurt dışından gelenlere öncelik verilecektir."
     },
+    footer: {
+        madeWithLove: "Özel günümüz için sevgiyle yapıldı",
+        allRightsReserved: "Tüm hakları saklıdır."
+    }
 };

@@ -7,6 +7,7 @@ import { Calendar, MapPin, Users, Utensils } from 'lucide-react';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import { useLanguage } from '@/contexts/LanguageContext';
+import RSVPBanner from '@/components/shared/RSVPBanner';
 
 import {
   WEDDING_DATE,
@@ -87,8 +88,8 @@ const Index = () => {
                   <h3 className="font-serif text-xl text-wedding-dark mb-2 text-center">{t('home.ceremonyReception')}</h3>
                   <p className="text-wedding-muted text-center text-sm">
                     {WEDDING_DATE}
-                    <br />Ceremony: {CEREMONY_DETAILS.time}
-                    <br />Reception: {RECEPTION_DETAILS.time}
+                    <br />{t('details.ceremony')}: {CEREMONY_DETAILS.time}
+                    <br />{t('details.reception')}: {RECEPTION_DETAILS.time}
                   </p>
                 </AnimatedSection>
 
@@ -100,9 +101,8 @@ const Index = () => {
                   </div>
                   <h3 className="font-serif text-xl text-wedding-dark mb-2 text-center">{t('home.venue')}</h3>
                   <p className="text-wedding-muted text-center text-sm">
-                    Fredriksborg Hotell & Restaurang
-                    <br />Fredriksborgsvägen 17
-                    <br />139 90 Värmdö
+                    {WEDDING_VENUE}
+                    <br />{WEDDING_ADDRESS}
                   </p>
                 </AnimatedSection>
 
@@ -114,7 +114,7 @@ const Index = () => {
                   </div>
                   <h3 className="font-serif text-xl text-wedding-dark mb-2 text-center">{t('home.menu')}</h3>
                   <p className="text-wedding-muted text-center text-sm">
-                    TBA
+                    {t('details.menuTBA')}
                     <br />
                     <br />
                   </p>
@@ -128,10 +128,7 @@ const Index = () => {
                   </div>
                   <h3 className="font-serif text-xl text-wedding-dark mb-2 text-center">{t('home.accommodations')}</h3>
                   <p className="text-wedding-muted text-center text-sm">
-                    We will be able to accommodate up to 30 guests at the wedding venue for the wedding night, with priority
-                    given to those traveling from abroad.
-                    <br />
-                    <br />
+                    {t('details.accommodationsInfo')}
                   </p>
                 </AnimatedSection>
               </div>
@@ -146,28 +143,12 @@ const Index = () => {
             </div>
           </section>
 
-          {/* RSVP Banner */}
-          <section className="py-24 bg-cover bg-center relative" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1500673922987-e212871fec22?q=80&w=2000)' }}>
-            <div className="absolute inset-0 bg-black/50 backdrop-blur-[1px]"></div>
-            <div className="container max-w-5xl mx-auto px-6 relative z-10">
-              <AnimatedSection className="text-center" animation="fade-in">
-                <h2 className="font-serif text-4xl text-white mb-4">{t('home.joinUs')}</h2>
-                <div className="w-16 h-0.5 bg-wedding-primary mx-auto mb-8"></div>
-                <p className="text-white/90 max-w-2xl mx-auto mb-10">
-                  {t('home.joinUsContent')}
-                </p>
-                <Link
-                    to="https://tally.so/r/3NPJPW"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                  <Button size="lg" className="bg-wedding-primary hover:bg-wedding-accent/90 text-white transition-all px-8 py-6 rounded-md">
-                    {t('common.rsvpButton')}
-                  </Button>
-                </Link>
-              </AnimatedSection>
-            </div>
-          </section>
+          {/* Replace RSVP Banner with component */}
+          <RSVPBanner
+              title={t('home.joinUs')}
+              subtitle={t('home.joinUsContent')}
+              buttonText={t('common.rsvpButton')}
+          />
         </main>
 
         <Footer />
