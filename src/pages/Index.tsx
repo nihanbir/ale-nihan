@@ -37,13 +37,14 @@ const Index = () => {
       <div className="min-h-screen flex flex-col">
         <Navbar />
 
-        <main className="flex-grow bg-wedding-primary">
-          <Hero
-              names={{ partner1: 'Nihan', partner2: 'Ale' }}
-              date={t('details.weddingDay')}
-              location={WEDDING_LOCATION}
-          />
-
+        <main className="flex-grow bg-white">
+          <div className="bg-wedding-primary">
+            <Hero
+                names={{ partner1: 'Nihan', partner2: 'Ale' }}
+                date={t('details.weddingDay')}
+                location={WEDDING_LOCATION}
+            />
+          </div>
           {/* About Section */}
           <section id="about-section" className="py-20 bg-white">
             <div className="container max-w-5xl mx-auto px-6">
