@@ -74,7 +74,7 @@ export default {
         parkingInfo: "For guests driving to the venue, complimentary parking will be available."
     },
     footer: {
-        madeWithLove: "Made with love for our special day",
+        madeWithLove: "Made with love",
         allRightsReserved: "All rights reserved."
     }
 };

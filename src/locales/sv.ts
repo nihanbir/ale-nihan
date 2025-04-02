@@ -74,7 +74,7 @@ export default {
         parkingInfo: "För gäster som kör till evenemangslokalen kommer gratis parkering att finnas tillgänglig."
     },
     footer: {
-        madeWithLove: "Gjord med kärlek för vår speciella dag",
+        madeWithLove: "Gjord med kärlek",
         allRightsReserved: "Alla rättigheter förbehållna."
     }
 };
