@@ -36,20 +36,32 @@ const Gallery = () => {
     },
     {
       id: 4,
-      url: '',
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/grad.jpg',
       alt: t('gallery.preWedding') + ' 1',
       category: 'pre-wedding'
     },
     {
       id: 5,
-      url: '',
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/lastxmas.jpg',
       alt: t('gallery.preWedding') + ' 2',
       category: 'pre-wedding'
     },
     {
       id: 6,
-      url: '',
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/ducks.jpg',
       alt: t('gallery.preWedding') + ' 3',
+      category: 'pre-wedding'
+    },
+    {
+      id: 7,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/frog.jpg',
+      alt: t('gallery.preWedding') + ' 4',
+      category: 'pre-wedding'
+    },
+    {
+      id: 7,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/frog.jpg',
+      alt: t('gallery.preWedding') + ' 4',
       category: 'pre-wedding'
     },
   ];
