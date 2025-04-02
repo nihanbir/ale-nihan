@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
@@ -5,18 +6,18 @@ import AnimatedSection from '@/components/shared/AnimatedSection';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 interface RSVPBannerProps {
-    title: string;
-    subtitle: string;
+    title?: string;
+    subtitle?: string;
     buttonText?: string;
     backgroundImage?: string;
 }
 
 const RSVPBanner: React.FC<RSVPBannerProps> = ({
-                                                   title,
-                                                   subtitle,
-                                                   buttonText,
-                                                   backgroundImage = "https://images.unsplash.com/photo-1500673922987-e212871fec22?q=80&w=2000"
-                                               }) => {
+    title,
+    subtitle,
+    buttonText,
+    backgroundImage = "https://images.unsplash.com/photo-1500673922987-e212871fec22?q=80&w=2000"
+}) => {
     const { t } = useLanguage();
 
     return (
@@ -24,10 +25,12 @@ const RSVPBanner: React.FC<RSVPBannerProps> = ({
             <div className="absolute inset-0 bg-black/50 backdrop-blur-[1px]"></div>
             <div className="container max-w-4xl mx-auto px-6 relative z-10">
                 <AnimatedSection className="text-center" animation="fade-in">
-                    <h2 className="font-serif text-3xl text-white mb-4">{title}</h2>
+                    <h2 className="font-serif text-3xl text-white mb-4">
+                        {title || t('home.joinUs')}
+                    </h2>
                     <div className="w-12 h-0.5 bg-wedding-primary mx-auto mb-6"></div>
                     <p className="text-white/90 max-w-2xl mx-auto mb-8">
-                        {subtitle}
+                        {subtitle || t('home.joinUsContent')}
                     </p>
                     <Link
                         to="https://tally.so/r/3NPJPW"

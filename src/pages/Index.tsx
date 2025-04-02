@@ -10,10 +10,12 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import RSVPBanner from '@/components/shared/RSVPBanner';
 
 import {
-  WEDDING_DATE,
+  WEDDING_LOCATION,
   WEDDING_DATE_TIME,
   WEDDING_VENUE,
-  WEDDING_ADDRESS, CEREMONY_DETAILS, RECEPTION_DETAILS
+  WEDDING_ADDRESS, 
+  CEREMONY_DETAILS, 
+  RECEPTION_DETAILS
 } from '@/constants/wedding';
 
 const Index = () => {
@@ -26,8 +28,8 @@ const Index = () => {
         <main className="flex-grow">
           <Hero
               names={{ partner1: 'Nihan', partner2: 'Ale' }}
-              date={WEDDING_DATE}
-              location="Värmdö, Stockholm"
+              date={t('details.weddingDay')}
+              location={WEDDING_LOCATION}
           />
 
           {/* About Section */}
@@ -87,7 +89,7 @@ const Index = () => {
                   </div>
                   <h3 className="font-serif text-xl text-wedding-dark mb-2 text-center">{t('home.ceremonyReception')}</h3>
                   <p className="text-wedding-muted text-center text-sm">
-                    {WEDDING_DATE}
+                    date={t('details.weddingDay')}
                     <br />{t('details.ceremony')}: {CEREMONY_DETAILS.time}
                     <br />{t('details.reception')}: {RECEPTION_DETAILS.time}
                   </p>

@@ -1,3 +1,4 @@
+
 export default {
     common: {
         welcomeMessage: "Välkommen till vår bröllopssida",
@@ -41,7 +42,33 @@ export default {
         ceremony: "Ceremoni",
         reception: "Middag",
         menuTBA: "Kommer att meddelas",
-        accommodationsInfo: "Vi kommer att kunna ta emot upp till 30 gäster på bröllopsstället för bröllopsnatten, med prioritet för dem som reser från utlandet."
+        accommodationsInfo: "Vi kommer att kunna ta emot upp till 30 gäster på bröllopsstället för bröllopsnatten, med prioritet för dem som reser från utlandet.",
+        registry: "Gåvoregister",
+        registryInfo: "Din närvaro på vårt bröllop är den största gåvan av alla. Men om du vill hedra oss med en gåva har vi registrerat oss på följande ställen:",
+        amazonRegistry: "Amazon Register",
+        crateBarrel: "Crate & Barrel",
+        entertainment: "Underhållning",
+        diningExperience: "Matupplevelse",
+        diningDescription: "Vår mottagning kommer att erbjuda en säsongsbetonad meny från gård till bord. Kostbegränsningar kan tillgodoses med förhandsmeddelande.",
+        menuPreview: "Menyförhandsvisning",
+        firstCourse: "Förrätt",
+        mainCourse: "Huvudrätt",
+        dessert: "Efterrätt",
+        entertainmentDescription: "Vi har planerat en underbar kväll med musik och firande för alla våra gäster att njuta av.",
+        schedule: "Schema",
+        dinner: "Middag",
+        dancing: "Dans",
+        ceremonyMusic: "Stråkkvartett som spelar klassisk musik",
+        dinnerMusic: "Mjuk bakgrundsjazz ensemble, tal",
+        dancingDescription: "Dans på det historiska slottet",
+        roomDescription: "Varje rum har ett privat badrum och en bekväm dubbelsäng. Vänligen meddela oss om du har några speciella önskemål.",
+        checkIn: "Incheckning",
+        checkOut: "Utcheckning",
+        weddingDay: "19 juli 2025",
+        nextDay: "20 juli 2025",
+        breakfast: "Frukost",
+        transportation: "Transport",
+        parkingInfo: "För gäster som kör till evenemangslokalen kommer gratis parkering att finnas tillgänglig."
     },
     footer: {
         madeWithLove: "Gjord med kärlek för vår speciella dag",

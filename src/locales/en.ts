@@ -1,3 +1,4 @@
+
 export default {
     common: {
         welcomeMessage: "Welcome to our wedding website",
@@ -41,7 +42,33 @@ export default {
         ceremony: "Ceremony",
         reception: "Reception",
         menuTBA: "TBA",
-        accommodationsInfo: "We will be able to accommodate up to 30 guests at the wedding venue for the wedding night, with priority given to those traveling from abroad."
+        accommodationsInfo: "We will be able to accommodate up to 30 guests at the wedding venue for the wedding night, with priority given to those traveling from abroad.",
+        registry: "Registry",
+        registryInfo: "Your presence at our wedding is the greatest gift of all. However, if you wish to honor us with a gift, we've registered at the following places:",
+        amazonRegistry: "Amazon Registry",
+        crateBarrel: "Crate & Barrel",
+        entertainment: "Entertainment",
+        diningExperience: "Dining Experience",
+        diningDescription: "Our reception will feature a seasonal farm-to-table menu. Dietary restrictions can be accommodated with advance notice.",
+        menuPreview: "Menu Preview",
+        firstCourse: "First Course",
+        mainCourse: "Main Course",
+        dessert: "Dessert",
+        entertainmentDescription: "We've planned a wonderful evening of music and celebration for all our guests to enjoy.",
+        schedule: "Schedule",
+        dinner: "Dinner",
+        dancing: "Dancing",
+        ceremonyMusic: "String quartet playing classical music",
+        dinnerMusic: "Soft background jazz ensemble, speeches",
+        dancingDescription: "Dancing at the historical castle",
+        roomDescription: "Each room features a private bathroom and a comfortable double bed. Please let us know if you have any special requests.",
+        checkIn: "Check-in",
+        checkOut: "Check-out",
+        weddingDay: "July 19 2025",
+        nextDay: "July 20 2025",
+        breakfast: "Breakfast",
+        transportation: "Transportation",
+        parkingInfo: "For guests driving to the venue, complimentary parking will be available."
     },
     footer: {
         madeWithLove: "Made with love for our special day",
