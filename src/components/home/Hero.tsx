@@ -37,34 +37,32 @@ const Hero: React.FC<HeroProps> = ({
   return (
     <div className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background container */}
-      <div className="absolute inset-0">
-        {/* Background image - visible on all screens, unblurred on mobile */}
-        <div
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{
-              backgroundImage: `url('https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/us.jpg')`
-            }}
-        />
+        <div className="absolute inset-0">
+          <div
+              className="hidden absolute sm:block inset-0 bg-center bg-no-repeat"
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/extended.jpg')`,
+                backgroundSize: '118%',
+                filter: 'blur(8px) brightness(0.8)',
+              }}
+          />
 
-        {/* Blurred background extension - desktop only */}
-        <div
-            className="hidden sm:block absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm"
-            style={{
-              backgroundImage: `url('https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/us.jpg')`,
-              filter: 'blur(8px) brightness(0.8)'
-            }}
-        />
-
-        {/* Main image - hidden on mobile, visible on desktop */}
-        <div
-            className="hidden sm:block absolute inset-0 bg-center bg-no-repeat"
+          <div
+            className="hidden absolute sm:block inset-0 bg-center bg-no-repeat"
             style={{
               backgroundImage: `url('https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/us.jpg')`,
               backgroundSize: '50%',
-              maskImage: 'radial-gradient(circle at center, white 40%, transparent 50%)',
-              WebkitMaskImage: 'radial-gradient(circle at center, white 30%, transparent 45%)'
+              maskImage: 'radial-gradient(circle at center, white 35%, transparent 45%)',
+              WebkitMaskImage: 'radial-gradient(circle at center, white 35%, transparent 45%)'
             }}
-        />
+          />
+
+          <div
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat sm:hidden"
+              style={{
+                backgroundImage: `url('https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/us.jpg')`,
+              }}
+          />
 
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black/20"></div>
