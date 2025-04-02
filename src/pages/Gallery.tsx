@@ -59,9 +59,45 @@ const Gallery = () => {
       category: 'pre-wedding'
     },
     {
-      id: 7,
-      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/frog.jpg',
-      alt: t('gallery.preWedding') + ' 4',
+      id: 8,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/ale.jpg',
+      alt: t('gallery.preWedding') + ' 5',
+      category: 'pre-wedding'
+    },
+    {
+      id: 9,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/anders.jpg',
+      alt: t('gallery.preWedding') + ' 6',
+      category: 'pre-wedding'
+    },
+    {
+      id: 10,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/boat.jpg',
+      alt: t('gallery.preWedding') + ' 7',
+      category: 'pre-wedding'
+    },
+    {
+      id: 11,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/anders.jpg',
+      alt: t('gallery.preWedding') + ' 8',
+      category: 'pre-wedding'
+    },
+    {
+      id: 9,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/anders.jpg',
+      alt: t('gallery.preWedding') + ' 6',
+      category: 'pre-wedding'
+    },
+    {
+      id: 9,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/anders.jpg',
+      alt: t('gallery.preWedding') + ' 6',
+      category: 'pre-wedding'
+    },
+    {
+      id: 9,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/anders.jpg',
+      alt: t('gallery.preWedding') + ' 6',
       category: 'pre-wedding'
     },
   ];
