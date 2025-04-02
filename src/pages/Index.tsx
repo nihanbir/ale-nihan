@@ -59,7 +59,7 @@ const Index = () => {
                 <AnimatedSection animation="slide-up" delay={200}>
                   <div className="rounded-lg overflow-hidden shadow-soft">
                     <img
-                        src="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?q=80&w=1200"
+                        src="https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/ring.jpg"
                         alt="Couple"
                         className="w-full h-full object-cover"
                     />
