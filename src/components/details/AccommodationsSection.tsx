@@ -1,9 +1,11 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import AnimatedSection from '@/components/shared/AnimatedSection';
 import { Hotel, Car, Clock } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { ACCOMMODATIONS } from '@/constants/wedding';
+import {Button} from "@/components/ui/button.tsx";
 
 const AccommodationsSection: React.FC = () => {
   const { t } = useLanguage();
@@ -15,6 +17,15 @@ const AccommodationsSection: React.FC = () => {
           <h2 className="font-serif text-3xl text-wedding-dark mb-4">{t('home.accommodations')}</h2>
           <div className="w-12 h-0.5 bg-wedding-primary mx-auto mb-8"></div>
           <p className="text-wedding-muted max-w-3xl mx-auto">
+            {t('details.hotelInfo')}
+          </p>
+          
+          <Link to="https://www.fredriksborghotel.se/">
+            <Button className="bg-wedding-primary/50 text-wedding-dark hover:bg-wedding-accent/50   transition-all">
+              Fredriksborg Website
+            </Button>
+          </Link>
+          <p className="text-wedding-muted max-w-3xl mx-auto mt-4">
             {t('details.accommodationsInfo')}
           </p>
         </AnimatedSection>
@@ -85,8 +96,8 @@ const AccommodationsSection: React.FC = () => {
                 </div>
                 <div className="md:w-3/4">
                   <h3 className="font-serif text-xl text-wedding-dark mb-2">{t('details.transportation')}</h3>
-                  <p className="text-wedding-muted mb-4">
-                    {t('details.menuTBA')}
+                  <p className="text-wedding-muted">
+                    {t('details.transportationInfo')}
                   </p>
                   <p className="text-wedding-muted">
                     {t('details.parkingInfo')}

@@ -81,7 +81,7 @@ const MenuSection: React.FC = () => {
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-wedding-primary rounded-full mt-2 mr-2"></div>
                   <div>
-                    <p className="font-medium">{t('details.dancing')} (21:00 - 12:30)</p>
+                    <p className="font-medium">{t('details.dancing')} (21:00 - 00:30)</p>
                     <p className="text-wedding-muted text-sm">{t('details.dancingDescription')}</p>
                   </div>
                 </li>

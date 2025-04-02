@@ -1,4 +1,3 @@
-
 export default {
     common: {
         welcomeMessage: "Düğün web sitemize hoş geldiniz",
@@ -8,7 +7,12 @@ export default {
         details: "Detaylar",
         gallery: "Galeri",
         home: "Ana Sayfa",
-        contact: "İletişim"
+        contact: "İletişim",
+        rsvpReminder: "RSVP Hatırlatması"
+    },
+    hero: {
+        gettingMarried: "Evleniyoruz",
+        viewDetails: "Detayları Görüntüle"
     },
     home: {
         ourStory: "Hikayemiz",
@@ -39,14 +43,12 @@ export default {
     details: {
         title: "Düğün Detayları",
         description: "Özel günümüz hakkında bilmeniz gereken her şey burada.",
+        lastDayRSVP: "Lütfen RSVP'nizi en geç 18 Haziran'a kadar bildirin.",
         ceremony: "Tören",
         reception: "Resepsiyon",
         menuTBA: "Bildirilecek",
+        hotelInfo: "Värmdö'deki Fredriksborg Hotel, tarihi bir atmosferde muhteşem bir deniz manzarası sunar. Büyüleyici ve sıcak atmosferiyle otel, İsveç Ulusal Emlak Kurulu'nun desteğiyle gerçekleştirilen özenli bir restorasyonun sonucudur.",
         accommodationsInfo: "Düğün mekanında düğün gecesi için 30 kişiye kadar konaklama sağlayabileceğiz, yurt dışından gelenlere öncelik verilecektir.",
-        registry: "Hediye Listesi",
-        registryInfo: "Düğünümüzde varlığınız en büyük hediyedir. Ancak, bizi bir hediye ile onurlandırmak isterseniz, aşağıdaki yerlerde kayıtlıyız:",
-        amazonRegistry: "Amazon Kayıt",
-        crateBarrel: "Crate & Barrel",
         entertainment: "Eğlence",
         diningExperience: "Yemek Deneyimi",
         diningDescription: "Resepsiyonumuzda mevsimsel çiftlikten sofraya menü sunulacaktır. Diyet kısıtlamaları önceden bildirilmek kaydıyla karşılanabilir.",
@@ -58,8 +60,8 @@ export default {
         schedule: "Program",
         dinner: "Akşam Yemeği",
         dancing: "Dans",
-        ceremonyMusic: "Klasik müzik çalan yaylı dörtlü",
-        dinnerMusic: "Yumuşak arka plan caz topluluğu, konuşmalar",
+        ceremonyMusic: "",
+        dinnerMusic: "Yumuşak arka plan caz müzik, konuşmalar",
         dancingDescription: "Tarihi şatoda dans",
         roomDescription: "Her odada özel banyo ve rahat bir çift kişilik yatak bulunmaktadır. Herhangi bir özel isteğiniz varsa lütfen bize bildirin.",
         checkIn: "Otel Giriş",
@@ -68,7 +70,8 @@ export default {
         nextDay: "20 Temmuz 2025",
         breakfast: "Kahvaltı",
         transportation: "Ulaşım",
-        parkingInfo: "Mekana arabayla gelen misafirler için ücretsiz otopark hizmeti verilecektir."
+        transportationInfo: "Türkiye'den gelen misafirlerimiz için şehir merkezinden düğün lokasyonuna ve lokasyondan şehir merkezine ulaşım sağlayacağız. Ancak, ulaşımı kendiniz yapmak isterseniz lütfen bildiriniz.",
+        parkingInfo: "For guests driving to the venue, complimentary parking will be available."
     },
     footer: {
         madeWithLove: "Özel günümüz için sevgiyle yapıldı",

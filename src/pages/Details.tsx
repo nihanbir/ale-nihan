@@ -34,7 +34,7 @@ const Details = () => {
         {/* RSVP Banner */}
         <RSVPBanner
           title={t('home.joinUs')}
-          subtitle={`${t('home.joinUsContent')} ${t('common.rsvpButton')}.`}
+          subtitle={`${t('home.joinUsContent')}`}
         />
       </main>
       <Footer />

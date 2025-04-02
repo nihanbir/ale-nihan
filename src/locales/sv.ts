@@ -1,4 +1,3 @@
-
 export default {
     common: {
         welcomeMessage: "Välkommen till vår bröllopssida",
@@ -8,7 +7,12 @@ export default {
         details: "Detaljer",
         gallery: "Galleri",
         home: "Hem",
-        contact: "Kontakt"
+        contact: "Kontakt",
+        rsvpReminder: "OSA Påminnelse"
+    },
+    hero: {
+        gettingMarried: "Vi ska gifta oss",
+        viewDetails: "Visa Detaljer"
     },
     home: {
         ourStory: "Vår Historia",
@@ -39,14 +43,12 @@ export default {
     details: {
         title: "Bröllopsinformation",
         description: "Här är allt du behöver veta om vår speciella dag.",
+        lastDayRSVP: "Vänligen lämna ditt RSVP senast den 18 juni.",
         ceremony: "Ceremoni",
         reception: "Middag",
         menuTBA: "Kommer att meddelas",
+        hotelInfo: "Fredriksborg Hotell på Värmdö erbjuder en fantastisk havsutsikt i en historisk miljö. Det charmiga och inbjudande hotellet är resultatet av en omsorgsfull renovering, genomförd med stöd av Statens fastighetsverk.",
         accommodationsInfo: "Vi kommer att kunna ta emot upp till 30 gäster på bröllopsstället för bröllopsnatten, med prioritet för dem som reser från utlandet.",
-        registry: "Gåvoregister",
-        registryInfo: "Din närvaro på vårt bröllop är den största gåvan av alla. Men om du vill hedra oss med en gåva har vi registrerat oss på följande ställen:",
-        amazonRegistry: "Amazon Register",
-        crateBarrel: "Crate & Barrel",
         entertainment: "Underhållning",
         diningExperience: "Matupplevelse",
         diningDescription: "Vår mottagning kommer att erbjuda en säsongsbetonad meny från gård till bord. Kostbegränsningar kan tillgodoses med förhandsmeddelande.",
@@ -58,8 +60,8 @@ export default {
         schedule: "Schema",
         dinner: "Middag",
         dancing: "Dans",
-        ceremonyMusic: "Stråkkvartett som spelar klassisk musik",
-        dinnerMusic: "Mjuk bakgrundsjazz ensemble, tal",
+        ceremonyMusic: "",
+        dinnerMusic: "Mjuk bakgrundsjazzmusik, tal",
         dancingDescription: "Dans på det historiska slottet",
         roomDescription: "Varje rum har ett privat badrum och en bekväm dubbelsäng. Vänligen meddela oss om du har några speciella önskemål.",
         checkIn: "Incheckning",
@@ -68,6 +70,7 @@ export default {
         nextDay: "20 juli 2025",
         breakfast: "Frukost",
         transportation: "Transport",
+        transportationInfo: "Vi erbjuder inte transport till eller från bröllopslokalen. Däremot kan vi sammanföra gäster som söker researrangemang.",
         parkingInfo: "För gäster som kör till evenemangslokalen kommer gratis parkering att finnas tillgänglig."
     },
     footer: {

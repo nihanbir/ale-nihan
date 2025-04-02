@@ -28,7 +28,7 @@ const ScheduleSection: React.FC = () => {
                     {
                       icon: <Clock className="h-5 w-5" />,
                       title: CEREMONY_DETAILS.time,
-                      description: `Saturday, ${CEREMONY_DETAILS.date}`
+                      description: t('details.weddingDay')
                     },
                     {
                       icon: <MapPin className="h-5 w-5" />,
@@ -50,7 +50,7 @@ const ScheduleSection: React.FC = () => {
                     {
                       icon: <Clock className="h-5 w-5" />,
                       title: RECEPTION_DETAILS.time,
-                      description: `Saturday, ${RECEPTION_DETAILS.date}`
+                      description: t('details.weddingDay')
                     },
                     {
                       icon: <MapPin className="h-5 w-5" />,

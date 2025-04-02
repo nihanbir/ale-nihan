@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ArrowDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 interface HeroProps {
   names?: {
@@ -16,9 +17,10 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({
   names = { partner1: 'Nihan', partner2: 'Ale' },
-  date = 'July 19, 2025',
-  location = 'Värmdö, Stockholm'
+  date,
+  location
 }) => {
+  const { t } = useLanguage();
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
@@ -79,16 +81,16 @@ const Hero: React.FC<HeroProps> = ({
               className="text-wedding-secondary/95 font-serif italic mb-6 md:mb-8 tracking-wide"
               style={{ transitionDelay: '200ms' }}
           >
-            We're getting married
+            {t('hero.gettingMarried')}
           </p>
 
           <h1
               className="font-serif text-4xl md:text-6xl lg:text-7xl text-white mb-8 md:mb-12 font-light"
               style={{ transitionDelay: '400ms' }}
           >
-            <span className="block mb-3 md:mb-4">{names.partner1}</span> {/* Increased bottom margin */}
+            <span className="block mb-3 md:mb-4">{names.partner1}</span>
             <span className="inline-block mx-2 md:mx-4 text-wedding-primary animate-pulse-soft">&</span>
-            <span className="block mt-3 md:mt-4">{names.partner2}</span> {/* Added top margin */}
+            <span className="block mt-3 md:mt-4">{names.partner2}</span>
           </h1>
 
           <div
@@ -110,7 +112,7 @@ const Hero: React.FC<HeroProps> = ({
           >
             <Link to="/details">
               <Button className="bg-wedding-primary hover:bg-wedding-secondary/90 hover:text-wedding-primary text-white transition-all px-6 py-5 rounded-md">
-                View Details
+                {t('hero.viewDetails')}
               </Button>
             </Link>
             <Link
@@ -119,7 +121,7 @@ const Hero: React.FC<HeroProps> = ({
                 rel="noopener noreferrer"
             >
               <Button size="lg" className="bg-wedding-primary hover:bg-wedding-accent/90 text-white transition-all px-8 py-6 rounded-md">
-                RSVP Now
+                {t('common.rsvpButton')}
               </Button>
             </Link>
           </div>

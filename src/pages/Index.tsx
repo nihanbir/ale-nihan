@@ -1,4 +1,5 @@
-import React from 'react';
+
+import React, { useEffect } from 'react';
 import Hero from '@/components/home/Hero';
 import AnimatedSection from '@/components/shared/AnimatedSection';
 import { Button } from '@/components/ui/button';
@@ -8,6 +9,7 @@ import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import { useLanguage } from '@/contexts/LanguageContext';
 import RSVPBanner from '@/components/shared/RSVPBanner';
+import { useToast } from "@/hooks/use-toast";
 
 import {
   WEDDING_LOCATION,
@@ -20,6 +22,16 @@ import {
 
 const Index = () => {
   const { t } = useLanguage();
+  const { toast } = useToast();
+
+  useEffect(() => {
+    // Show toast notification when component mounts
+    toast({
+      title: t('common.rsvpReminder'),
+      description: t('details.lastDayRSVP'),
+      duration: 10000, // Display for 10 seconds
+    });
+  }, [toast, t]);
 
   return (
       <div className="min-h-screen flex flex-col">
@@ -89,7 +101,7 @@ const Index = () => {
                   </div>
                   <h3 className="font-serif text-xl text-wedding-dark mb-2 text-center">{t('home.ceremonyReception')}</h3>
                   <p className="text-wedding-muted text-center text-sm">
-                    date={t('details.weddingDay')}
+                    {t('details.weddingDay')}
                     <br />{t('details.ceremony')}: {CEREMONY_DETAILS.time}
                     <br />{t('details.reception')}: {RECEPTION_DETAILS.time}
                   </p>

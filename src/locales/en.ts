@@ -1,4 +1,3 @@
-
 export default {
     common: {
         welcomeMessage: "Welcome to our wedding website",
@@ -8,7 +7,12 @@ export default {
         details: "Details",
         gallery: "Gallery",
         home: "Home",
-        contact: "Contact"
+        contact: "Contact",
+        rsvpReminder: "RSVP Reminder"
+    },
+    hero: {
+        gettingMarried: "We're getting married",
+        viewDetails: "View Details"
     },
     home: {
         ourStory: "Our Story",
@@ -39,14 +43,12 @@ export default {
     details: {
         title: "Wedding Details",
         description: "Here's everything you need to know about our special day.",
+        lastDayRSVP: "Please submit your RSVP by June 18th.",
         ceremony: "Ceremony",
         reception: "Reception",
         menuTBA: "TBA",
+        hotelInfo: "Fredriksborg Hotel on Värmdö offers a stunning sea view in a historic setting. The charming and welcoming hotel is the result of a careful renovation, carried out with the support of the National Property Board of Sweden.",
         accommodationsInfo: "We will be able to accommodate up to 30 guests at the wedding venue for the wedding night, with priority given to those traveling from abroad.",
-        registry: "Registry",
-        registryInfo: "Your presence at our wedding is the greatest gift of all. However, if you wish to honor us with a gift, we've registered at the following places:",
-        amazonRegistry: "Amazon Registry",
-        crateBarrel: "Crate & Barrel",
         entertainment: "Entertainment",
         diningExperience: "Dining Experience",
         diningDescription: "Our reception will feature a seasonal farm-to-table menu. Dietary restrictions can be accommodated with advance notice.",
@@ -58,8 +60,8 @@ export default {
         schedule: "Schedule",
         dinner: "Dinner",
         dancing: "Dancing",
-        ceremonyMusic: "String quartet playing classical music",
-        dinnerMusic: "Soft background jazz ensemble, speeches",
+        ceremonyMusic: "",
+        dinnerMusic: "Soft background jazz music, speeches",
         dancingDescription: "Dancing at the historical castle",
         roomDescription: "Each room features a private bathroom and a comfortable double bed. Please let us know if you have any special requests.",
         checkIn: "Check-in",
@@ -68,6 +70,7 @@ export default {
         nextDay: "July 20 2025",
         breakfast: "Breakfast",
         transportation: "Transportation",
+        transportationInfo: "We do not provide transportation to or from the wedding location. However, we can connect guests who are looking for travel arrangements.",
         parkingInfo: "For guests driving to the venue, complimentary parking will be available."
     },
     footer: {
