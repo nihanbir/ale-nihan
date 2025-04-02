@@ -27,6 +27,17 @@ const GalleryFilters: React.FC<GalleryFiltersProps> = ({ filter, setFilter }) =>
           {t('gallery.allPhotos')}
         </button>
         <button
+            onClick={() => setFilter('pre-wedding')}
+            className={cn(
+                "px-6 py-2 rounded-full transition-all text-sm",
+                filter === 'pre-wedding'
+                    ? "bg-wedding-primary text-white"
+                    : "bg-wedding-secondary/50 text-wedding-dark hover:bg-wedding-secondary"
+            )}
+        >
+          {t('gallery.preWedding')}
+        </button>
+        <button
           onClick={() => setFilter('engagement')}
           className={cn(
             "px-6 py-2 rounded-full transition-all text-sm",
@@ -37,17 +48,7 @@ const GalleryFilters: React.FC<GalleryFiltersProps> = ({ filter, setFilter }) =>
         >
           {t('gallery.engagement')}
         </button>
-        <button
-          onClick={() => setFilter('pre-wedding')}
-          className={cn(
-            "px-6 py-2 rounded-full transition-all text-sm",
-            filter === 'pre-wedding'
-              ? "bg-wedding-primary text-white"
-              : "bg-wedding-secondary/50 text-wedding-dark hover:bg-wedding-secondary"
-          )}
-        >
-          {t('gallery.preWedding')}
-        </button>
+       
       </div>
     </AnimatedSection>
   );
