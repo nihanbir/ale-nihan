@@ -17,24 +17,6 @@ const Gallery = () => {
   // Mock gallery data - in a real app this would come from a database
   const galleryImages = [
     {
-      id: 1,
-      url: '',
-      alt: t('gallery.engagement') + ' 1',
-      category: 'engagement'
-    },
-    {
-      id: 2,
-      url: '',
-      alt: t('gallery.engagement') + ' 2',
-      category: 'engagement'
-    },
-    {
-      id: 3,
-      url: '',
-      alt: t('gallery.engagement') + ' 3',
-      category: 'engagement'
-    },
-    {
       id: 4,
       url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/grad.jpg',
       alt: t('gallery.preWedding') + ' 1',
@@ -78,26 +60,104 @@ const Gallery = () => {
     },
     {
       id: 11,
-      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/anders.jpg',
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/erdem.jpg',
       alt: t('gallery.preWedding') + ' 8',
       category: 'pre-wedding'
     },
     {
-      id: 9,
-      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/anders.jpg',
-      alt: t('gallery.preWedding') + ' 6',
+      id: 12,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/börje.jpg',
+      alt: t('gallery.preWedding') + ' 9',
       category: 'pre-wedding'
     },
     {
-      id: 9,
-      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/anders.jpg',
-      alt: t('gallery.preWedding') + ' 6',
+      id: 13,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/fam.jpg',
+      alt: t('gallery.preWedding') + ' 10',
       category: 'pre-wedding'
     },
     {
-      id: 9,
-      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/anders.jpg',
-      alt: t('gallery.preWedding') + ' 6',
+      id: 14,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/firstxmastree.jpg',
+      alt: t('gallery.preWedding') + ' 11',
+      category: 'pre-wedding'
+    },
+    {
+      id: 15,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/forgor.jpg',
+      alt: t('gallery.preWedding') + ' 12',
+      category: 'pre-wedding'
+    },
+    {
+      id: 16,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/göteborg.jpg',
+      alt: t('gallery.preWedding') + ' 13',
+      category: 'pre-wedding'
+    },
+    {
+      id: 17,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/jörn.jpg',
+      alt: t('gallery.preWedding') + ' 14',
+      category: 'pre-wedding'
+    },
+    {
+      id: 18,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/pretty.jpg',
+      alt: t('gallery.preWedding') + ' 15',
+      category: 'pre-wedding'
+    },
+    {
+      id: 19,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/puss.jpg',
+      alt: t('gallery.preWedding') + ' 16',
+      category: 'pre-wedding'
+    },
+    {
+      id: 20,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/baba.jpg',
+      alt: t('gallery.preWedding') + ' 17',
+      category: 'pre-wedding'
+    },
+    {
+      id: 21,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/sibel.jpg',
+      alt: t('gallery.preWedding') + ' 18',
+      category: 'pre-wedding'
+    },
+    {
+      id: 22,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/slappy.jpg',
+      alt: t('gallery.preWedding') + ' 19',
+      category: 'pre-wedding'
+    },
+    {
+      id: 23,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/snowhole.jpg',
+      alt: t('gallery.preWedding') + ' 20',
+      category: 'pre-wedding'
+    },
+    {
+      id: 24,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/stu.jpg',
+      alt: t('gallery.preWedding') + ' 21',
+      category: 'pre-wedding'
+    },
+    {
+      id: 25,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/stubday.jpg',
+      alt: t('gallery.preWedding') + ' 22',
+      category: 'pre-wedding'
+    },
+    {
+      id: 26,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/xmas.jpg',
+      alt: t('gallery.preWedding') + ' 21',
+      category: 'pre-wedding'
+    },
+    {
+      id: 27,
+      url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/xmasbuffet.jpg',
+      alt: t('gallery.preWedding') + ' 21',
       category: 'pre-wedding'
     },
   ];
