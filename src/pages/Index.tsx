@@ -37,7 +37,7 @@ const Index = () => {
       <div className="min-h-screen flex flex-col">
         <Navbar />
 
-        <main className="flex-grow">
+        <main className="flex-grow bg-wedding-primary">
           <Hero
               names={{ partner1: 'Nihan', partner2: 'Ale' }}
               date={t('details.weddingDay')}
