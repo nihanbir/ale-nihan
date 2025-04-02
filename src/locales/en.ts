@@ -16,9 +16,9 @@ export default {
     },
     home: {
         ourStory: "Our Story",
-        ourStoryContent: "We are overjoyed to invite you to join us for our wedding celebration. Our journey began with a chance meeting at Forsberg's Skola, and we've been inseparable ever since. Through all of life's adventures, both big and small, we've built a partnership that we're excited to make official. We can't wait to celebrate this special day with our beloved family and friends.",
-        ourVision: "Our Vision",
-        ourVisionContent: "We're creating a celebration that reflects our love story – elegant yet relaxed, thoughtful and joyful. Our hope is to create beautiful memories with the people who mean the most to us, and to begin this next chapter surrounded by love.",
+        ourStoryContent: "We are overjoyed to invite you to join us for our wedding celebration. Our journey began with a chance meeting at Forsberg's Skola, and we've been inseparable ever since. Through all of life's adventures, both big and small, we've built a partnership that we're excited to make official.",
+        ourVision: "A Note from Us",
+        ourVisionContent: "As we get ready for this special day, we just want to take a moment to say thank you. Each of you has played a role in our lives, and having you celebrate with us makes this day even more meaningful. We can’t wait to share the joy, laughter, and love with you all.",
         exploreDetails: "Explore Details",
         eventHighlights: "Event Highlights",
         eventHighlightsContent: "Here's everything you need to know about our special day. We've put together all the important details to help you plan and prepare.",
