@@ -17,7 +17,7 @@ export default {
     home: {
         ourStory: "Vår Historia",
         ourStoryContent: "Vi är överlyckliga att bjuda in dig att fira vårt bröllop med oss. Vår resa började med ett ögonblick av slump på Forsbergs Skola, och sedan dess har vi varit oskiljaktiga. Genom livets alla äventyr, stora som små, har vi byggt en stark gemenskap som vi nu ser fram emot att göra officiell.",
-        ourVision: "Vår Vision",
+        ourVision: "Ett meddelande från oss",
         ourVisionContent: "När vi förbereder oss för denna speciella dag vill vi ta ett ögonblick och säga tack. Var och en av er har spelat en roll i våra liv, och att få fira denna dag tillsammans med er gör den ännu mer meningsfull. Vi ser fram emot att dela glädje, skratt och kärlek med er alla.",
         exploreDetails: "Utforska Detaljer",
         eventHighlights: "Händelsehöjdpunkter",

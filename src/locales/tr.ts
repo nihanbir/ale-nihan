@@ -17,7 +17,7 @@ export default {
     home: {
         ourStory: "Hikayemiz",
         ourStoryContent: "Sizi düğün kutlamamızda bizimle birlikte olmaya davet etmekten büyük mutluluk duyuyoruz. Yolculuğumuz, Forsberg’s Skola’da tesadüfi bir karşılaşmayla başladı ve o günden beri ayrılmaz bir ikili olduk. Hayatın büyük küçük tüm maceraları boyunca kurduğumuz ortaklığı resmi olarak taçlandırmak için sabırsızlanıyoruz.",
-        ourVision: "Vizyonumuz",
+        ourVision: "Bizden bir not",
         ourVisionContent: "Bu özel gün için hazırlıklarımızı yaparken, sadece bir teşekkür etmek istiyoruz. Her biriniz hayatımızda bir rol oynadınız ve bizimle bu günü kutlamanız, bu günü daha da anlamlı kılıyor. Hep birlikte neşe, kahkaha ve sevgiyi paylaşmayı sabırsızlıkla bekliyoruz.",
         exploreDetails: "Detayları Keşfedin",
         eventHighlights: "Etkinlik Öne Çıkanları",
