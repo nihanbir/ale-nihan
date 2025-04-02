@@ -27,7 +27,7 @@ export default {
         menu: "Menu",
         accommodations: "Accommodations",
         seeFullDetails: "See Full Details",
-        joinUs: "Join Us On Our Special Day",
+        joinUs: "Join Us On Our Wedding Celebration",
         joinUsContent: "We would be honored by your presence as we celebrate our love. Please let us know if you'll be joining us by completing the RSVP form.",
     },
     gallery: {

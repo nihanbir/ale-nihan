@@ -27,7 +27,7 @@ export default {
         menu: "Meny",
         accommodations: "Boende",
         seeFullDetails: "Se Alla Detaljer",
-        joinUs: "Var Med Oss På Vår Speciella Dag",
+        joinUs: "Fira vårt bröllop med oss",
         joinUsContent: "Vi skulle känna oss hedrade av din närvaro när vi firar vår kärlek. Låt oss veta om du kommer att delta genom att fylla i OSA-formuläret.",
     },
     gallery: {

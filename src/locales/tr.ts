@@ -27,7 +27,7 @@ export default {
         menu: "Menü",
         accommodations: "Konaklama",
         seeFullDetails: "Tüm Detayları Görün",
-        joinUs: "Özel Günümüzde Bize Katılın",
+        joinUs: "Düğün Kutlamamıza Katılın",
         joinUsContent: "Aşkımızı kutlarken varlığınızla bizi onurlandırırsınız. RSVP formunu doldurarak bize katılıp katılmayacağınızı lütfen bize bildirin.",
     },
     gallery: {
