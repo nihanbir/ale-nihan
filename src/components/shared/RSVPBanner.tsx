@@ -16,12 +16,19 @@ const RSVPBanner: React.FC<RSVPBannerProps> = ({
     title,
     subtitle,
     buttonText,
-    backgroundImage = "https://images.unsplash.com/photo-1500673922987-e212871fec22?q=80&w=2000"
+    backgroundImage = "https://www.fredriksborghotel.se/wp-content/uploads/2023/09/fredriksborg-21.jpg"
 }) => {
     const { t } = useLanguage();
 
     return (
-        <section className="py-16 bg-cover bg-center relative" style={{ backgroundImage: `url(${backgroundImage})` }}>
+        <section
+            className="py-16 bg-cover relative min-h-[50vh] md:min-h-[50vh]" // Reduced heights
+            style={{
+                backgroundImage: `url(${backgroundImage})`,
+                backgroundPosition: 'center 75%', // Keeps focus on lower image portion
+                backgroundSize: 'cover'
+            }}
+        >
             <div className="absolute inset-0 bg-black/50 backdrop-blur-[1px]"></div>
             <div className="container max-w-4xl mx-auto px-6 relative z-10">
                 <AnimatedSection className="text-center" animation="fade-in">
