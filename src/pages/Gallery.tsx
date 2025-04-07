@@ -16,7 +16,20 @@ const Gallery = () => {
   
   // Mock gallery data - in a real app this would come from a database
   const galleryImages = [
-    {
+      {
+        id: 1,
+        url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/engagement.jpg',
+        alt: t('gallery.engagement') + ' 1',
+        category: 'engagement'
+      },
+      {
+        id: 2,
+        url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/finger.jpg',
+        alt: t('gallery.engagement') + ' 2',
+        category: 'engagement'
+      },
+      
+      {
       id: 4,
       url: 'https://raw.githubusercontent.com/nihanbir/ale-nihan/refs/heads/main/src/components/media/grad.jpg',
       alt: t('gallery.preWedding') + ' 1',
