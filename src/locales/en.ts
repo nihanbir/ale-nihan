@@ -42,6 +42,8 @@ export default {
         weddingPhotosDesc: "After our wedding, we'll update this gallery with photos from our special day. Check back soon!",
     },
     details: {
+        dressCodeDescription: "Formal summer attire",
+        dressCodeDetails:"We kindly ask our guests to wear formal clothing suitable for a summer celebration. Think light, elegant fabrics and polished looks – suits, dresses, or coordinated outfits that are comfortable yet dressy. Please avoid casual wear such as jeans or sneakers.",
         title: "Wedding Details",
         description: "Here's everything you need to know about our special day.",
         lastDayRSVP: "Information about the dress code, check-in check-out times, gifts, and more in the details section.",

@@ -10,6 +10,7 @@ import DetailsHeader from '@/components/details/DetailsHeader';
 import ScheduleSection from '@/components/details/ScheduleSection';
 import AccommodationsSection from '@/components/details/AccommodationsSection';
 import MenuSection from '@/components/details/MenuSection';
+import DressCodeSection from '@/components/details/DressCodeSection';
 
 const Details = () => {
   const { t } = useLanguage();
@@ -30,6 +31,9 @@ const Details = () => {
         
         {/* Menu & Entertainment Section */}
         <MenuSection />
+
+         {/* Dress code Section */}
+         <DressCodeSection />
         
         {/* RSVP Banner */}
         <RSVPBanner

@@ -1,3 +1,5 @@
+import DressCodeSection from "@/components/details/DressCodeSection";
+
 export default {
     common: {
         welcomeMessage: "Düğün web sitemize hoş geldiniz",
@@ -25,6 +27,7 @@ export default {
         ceremonyReception: "Tören ve Resepsiyon",
         venue: "Mekan",
         menu: "Menü",
+        dressCode: "Kıyafet Kodu",
         accommodations: "Konaklama",
         seeFullDetails: "Tüm Detayları Görün",
         joinUs: "Düğün Kutlamamıza Katılın",
@@ -41,6 +44,8 @@ export default {
         weddingPhotosDesc: "Düğünümüzden sonra, bu galeriyi özel günümüzden fotoğraflarla güncelleyeceğiz. Yakında tekrar kontrol edin!",
     },
     details: {
+        dressCodeDescription: "Yazlık şık giyim",
+        dressCodeDetails: "Konuklarımızdan yaz düğününe uygun şık ve resmi kıyafetler giymelerini rica ediyoruz. Hafif, zarif kumaşlardan oluşan elbiseler, takımlar veya özenli kombinler tercih edebilirsiniz. Lütfen kot pantolon veya spor ayakkabı gibi günlük kıyafetlerden kaçının.",
         title: "Düğün Detayları",
         description: "Özel günümüz hakkında bilmeniz gereken her şey burada.",
         lastDayRSVP: "Kıyafet kodu, giriş-çıkış saatleri, hediyeler ve daha fazlası hakkında bilgi için lütfen detaylar bölümünü kontrol edin.",
