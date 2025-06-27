@@ -8,6 +8,7 @@ export default {
         gallery: "Galleri",
         home: "Hem",
         contact: "Kontakt",
+        rsvpReminder: "Vänligen kontrollera avsnittet med detaljer för mer information.",
     },
     hero: {
         gettingMarried: "Vi ska gifta oss",
@@ -42,6 +43,7 @@ export default {
     details: {
         title: "Bröllopsinformation",
         description: "Här är allt du behöver veta om vår speciella dag.",
+        lastDayRsvp: "Information om klädkod, incheckning och utcheckningstider, presenter och mer finns i avsnittet med detaljer.",
         ceremony: "Ceremoni",
         reception: "Middag",
         menuTBA: "Menyförhandsvisning",

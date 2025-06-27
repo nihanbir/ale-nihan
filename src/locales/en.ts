@@ -8,6 +8,7 @@ export default {
         gallery: "Gallery",
         home: "Home",
         contact: "Contact",
+        rsvpReminder: "Please check the details section for more information.",
     },
     hero: {
         gettingMarried: "We're getting married",
@@ -43,6 +44,7 @@ export default {
     details: {
         title: "Wedding Details",
         description: "Here's everything you need to know about our special day.",
+        lastDayRSVP: "Information about the dress code, check-in check-out times, gifts, and more in the details section.",
         ceremony: "Ceremony",
         reception: "Reception",
         menuTBA: "Menu Preview",

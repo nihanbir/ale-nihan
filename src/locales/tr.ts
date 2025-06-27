@@ -8,6 +8,7 @@ export default {
         gallery: "Galeri",
         home: "Ana Sayfa",
         contact: "İletişim",
+        rsvpReminder: "Lütfen daha fazla bilgi için detaylar bölümünü kontrol edin.",
     },
     hero: {
         gettingMarried: "Evleniyoruz",
@@ -42,6 +43,7 @@ export default {
     details: {
         title: "Düğün Detayları",
         description: "Özel günümüz hakkında bilmeniz gereken her şey burada.",
+        lastDayRSVP: "Kıyafet kodu, giriş-çıkış saatleri, hediyeler ve daha fazlası hakkında bilgi için lütfen detaylar bölümünü kontrol edin.",
         ceremony: "Tören",
         reception: "Resepsiyon",
         menuTBA: "Menü Önizlemesi",
