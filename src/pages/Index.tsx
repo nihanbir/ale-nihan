@@ -119,9 +119,29 @@ const Index = () => {
                   </div>
                   <h3 className="font-serif text-xl text-wedding-dark mb-2 text-center">{t('home.menu')}</h3>
                   <p className="text-wedding-muted text-center text-sm">
-                    {t('details.menuTBA')}
-                    <br />
-                    <br />
+                    <ul className="space-y-3">
+                      <li className="flex items-start">
+                        <div className="w-2 h-2 bg-wedding-primary rounded-full mt-2 mr-2"></div>
+                        <div>
+                          <p className="font-medium">{t('details.firstCourse')}</p>
+                          <p className="text-wedding-muted text-sm">{t('details.menuFirstCourse')}</p>
+                        </div>
+                      </li>
+                      <li className="flex items-start">
+                        <div className="w-2 h-2 bg-wedding-primary rounded-full mt-2 mr-2"></div>
+                        <div>
+                          <p className="font-medium">{t('details.mainCourse')}</p>
+                          <p className="text-wedding-muted text-sm">{t('details.menuMainCourse')}</p>
+                        </div>
+                      </li>
+                      <li className="flex items-start">
+                        <div className="w-2 h-2 bg-wedding-primary rounded-full mt-2 mr-2"></div>
+                        <div>
+                          <p className="font-medium">{t('details.dessert')}</p>
+                          <p className="text-wedding-muted text-sm">{t('details.menuDessert')}</p>
+                        </div>
+                      </li>
+                    </ul>
                   </p>
                 </AnimatedSection>
 
