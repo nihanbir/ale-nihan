@@ -1,11 +1,6 @@
-
 import React from 'react';
-import { Link } from 'react-router-dom';
 import AnimatedSection from '@/components/shared/AnimatedSection';
-import { Hotel, Car, Clock } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { ACCOMMODATIONS } from '@/constants/wedding';
-import {Button} from "@/components/ui/button.tsx";
 
 const DressCodeSection: React.FC = () => {
   const { t } = useLanguage();
