@@ -99,16 +99,6 @@ const Navbar: React.FC = () => {
 
               <div className="flex items-center space-x-4">
                 <LanguageSwitcher />
-
-                <Link
-                    to="https://tally.so/r/3NPJPW"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                  <Button size="lg" className="bg-wedding-primary hover:bg-wedding-accent/90 text-white transition-all px-8 py-6 rounded-md">
-                    {t('common.rsvpButton')}
-                  </Button>
-                </Link>
               </div>
             </div>
 
@@ -148,16 +138,6 @@ const Navbar: React.FC = () => {
                   <span>{link.name}</span>
                 </Link>
             ))}
-
-            <Link
-                to="https://tally.so/r/3NPJPW"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-              <Button size="lg" className="bg-wedding-primary hover:bg-wedding-accent/90 text-white transition-all px-8 py-6 rounded-md">
-                {t('common.rsvpButton')}
-              </Button>
-            </Link>
           </div>
         </div>
       </>

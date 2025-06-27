@@ -3,12 +3,11 @@ export default {
         welcomeMessage: "Düğün web sitemize hoş geldiniz",
         dateLabel: "Tarih",
         locationLabel: "Yer",
-        rsvpButton: "Şimdi RSVP",
+        rsvpButton: "Fredriksborg Hotell Website",
         details: "Detaylar",
         gallery: "Galeri",
         home: "Ana Sayfa",
         contact: "İletişim",
-        rsvpReminder: "RSVP Hatırlatması"
     },
     hero: {
         gettingMarried: "Evleniyoruz",
@@ -28,7 +27,7 @@ export default {
         accommodations: "Konaklama",
         seeFullDetails: "Tüm Detayları Görün",
         joinUs: "Düğün Kutlamamıza Katılın",
-        joinUsContent: "Aşkımızı kutlarken varlığınızla bizi onurlandırırsınız. RSVP formunu doldurarak bize katılıp katılmayacağınızı lütfen bize bildirin.",
+        joinUsContent: "Aşkımızı kutlarken varlığınızla bizi onurlandırırsınız. Bize katılıp katılamayacağınızı bildirdiğiniz için teşekkür ederiz.",
     },
     gallery: {
         title: "Galerimiz",
@@ -43,7 +42,6 @@ export default {
     details: {
         title: "Düğün Detayları",
         description: "Özel günümüz hakkında bilmeniz gereken her şey burada.",
-        lastDayRSVP: "Lütfen RSVP'nizi en geç 18 Haziran'a kadar bildirin.",
         ceremony: "Tören",
         reception: "Resepsiyon",
         menuTBA: "Bildirilecek",

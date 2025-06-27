@@ -3,12 +3,11 @@ export default {
         welcomeMessage: "Välkommen till vår bröllopssida",
         dateLabel: "Datum",
         locationLabel: "Plats",
-        rsvpButton: "OSA Nu",
+        rsvpButton: "Fredriksborg Hotell Website",
         details: "Detaljer",
         gallery: "Galleri",
         home: "Hem",
         contact: "Kontakt",
-        rsvpReminder: "OSA Påminnelse"
     },
     hero: {
         gettingMarried: "Vi ska gifta oss",
@@ -28,7 +27,7 @@ export default {
         accommodations: "Boende",
         seeFullDetails: "Se Alla Detaljer",
         joinUs: "Fira vårt bröllop med oss",
-        joinUsContent: "Vi skulle känna oss hedrade av din närvaro när vi firar vår kärlek. Låt oss veta om du kommer att delta genom att fylla i OSA-formuläret.",
+        joinUsContent: "Vi skulle känna oss hedrade av din närvaro när vi firar vår kärlek. Tack för att du meddelade oss om du kommer att delta.",
     },
     gallery: {
         title: "Vårt Galleri",
@@ -43,7 +42,6 @@ export default {
     details: {
         title: "Bröllopsinformation",
         description: "Här är allt du behöver veta om vår speciella dag.",
-        lastDayRSVP: "Vänligen lämna ditt RSVP senast den 18 juni.",
         ceremony: "Ceremoni",
         reception: "Middag",
         menuTBA: "Kommer att meddelas",

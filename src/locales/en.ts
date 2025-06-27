@@ -3,12 +3,11 @@ export default {
         welcomeMessage: "Welcome to our wedding website",
         dateLabel: "Date",
         locationLabel: "Location",
-        rsvpButton: "RSVP Now",
+        rsvpButton: "Fredriksborg Hotel Website",
         details: "Details",
         gallery: "Gallery",
         home: "Home",
         contact: "Contact",
-        rsvpReminder: "RSVP Reminder"
     },
     hero: {
         gettingMarried: "We're getting married",
@@ -25,10 +24,11 @@ export default {
         ceremonyReception: "Ceremony & Reception",
         venue: "Venue",
         menu: "Menu",
+        dressCode: "Dress Code",
         accommodations: "Accommodations",
         seeFullDetails: "See Full Details",
         joinUs: "Join Us On Our Wedding Celebration",
-        joinUsContent: "We would be honored by your presence as we celebrate our love. Please let us know if you'll be joining us by completing the RSVP form.",
+        joinUsContent: "We would be honored by your presence as we celebrate our love. Thank you for letting us know if you'll be joining us.",
     },
     gallery: {
         title: "Our Gallery",
@@ -43,10 +43,9 @@ export default {
     details: {
         title: "Wedding Details",
         description: "Here's everything you need to know about our special day.",
-        lastDayRSVP: "Please submit your RSVP by June 18th.",
         ceremony: "Ceremony",
         reception: "Reception",
-        menuTBA: "TBA",
+        menuTBA: "Golden beet carpaccio \nGoat cheese cream, lemon vinaigrette, and roasted seeds \nVeal entrecôte \nPotato cake, herb/garlic butter, seasonal vegetables, and red wine sauce \nChocolate mousse or Raspberry mousse \nAccompaniments depending on the mousse",
         hotelInfo: "Fredriksborg Hotel on Värmdö offers a stunning sea view in a historic setting. The charming and welcoming hotel is the result of a careful renovation, carried out with the support of the National Property Board of Sweden.",
         accommodationsInfo: "We will be able to accommodate up to 30 guests at the wedding venue for the wedding night, with priority given to those traveling from abroad.",
         entertainment: "Entertainment",

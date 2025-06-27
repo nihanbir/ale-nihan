@@ -30,14 +30,6 @@ const Footer: React.FC = () => {
             >
               {t('common.gallery')}
             </Link>
-            <Link
-                to="https://tally.so/r/3NPJPW"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-wedding-dark hover:text-wedding-primary transition-colors"
-            >
-              {t('common.rsvpButton')}
-            </Link>
           </div>
 
           <div className="flex items-center justify-center mb-4">
