@@ -40,7 +40,7 @@ const RSVPBanner: React.FC<RSVPBannerProps> = ({
                         {subtitle || t('home.joinUsContent')}
                     </p>
                     <Link
-                        to="https://tally.so/r/3NPJPW"
+                        to="https://www.fredriksborghotel.se/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
