@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import AnimatedSection from '@/components/shared/AnimatedSection';
 import { Gift } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -21,18 +21,29 @@ const RegistrySection: React.FC = () => {
             {t('details.registryInfo')}
           </p>
           <div className="grid sm:grid-cols-2 gap-6 max-w-xl mx-auto">
-            <Button 
-              variant="outline" 
+
+            <Button
+              onClick={() => {
+                navigator.clipboard.writeText(t('details.swishNumber'));
+                alert(t('details.swishNumber') + ' copied to clipboard!');
+              }}
+              variant="outline"
               className="border-wedding-primary text-wedding-primary hover:bg-wedding-primary hover:text-white transition-all py-6"
             >
-              {t('details.amazonRegistry')}
+              {t('details.swishButton')}
             </Button>
-            <Button 
-              variant="outline" 
-              className="border-wedding-primary text-wedding-primary hover:bg-wedding-primary hover:text-white transition-all py-6"
-            >
-              {t('details.crateBarrel')}
-            </Button>
+
+            <Link 
+             to="https://paypal.me/NihanAle?country.x=SE&locale.x=sv_SE"
+             target="_blank"
+             rel="noopener noreferrer">
+              <Button 
+                variant="outline" 
+                className="border-wedding-primary text-wedding-primary hover:bg-wedding-primary hover:text-white transition-all py-6"
+              >
+                {t('details.payPal')}
+              </Button>
+            </Link>
           </div>
         </AnimatedSection>
       </div>

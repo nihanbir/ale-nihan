@@ -44,6 +44,11 @@ export default {
         weddingPhotosDesc: "Düğünümüzden sonra, bu galeriyi özel günümüzden fotoğraflarla güncelleyeceğiz. Yakında tekrar kontrol edin!",
     },
     details: {
+        registery: "Hediye Listesi",
+        registeryInfo: "Sadece orada olmanız bizim için her şey demek. Ancak katkıda bulunmak isterseniz, size rehberlik etmesi için bir hediye listesi oluşturduk. Zarafetiniz ve düşünceniz için şimdiden teşekkür ederiz.",
+        swishButton: "Swish numarasını kopyalamak için buraya tıklayın",
+        swishNumber: "0739527224",
+        payPal: "PayPal",
         dressCodeDescription: "Yazlık şık giyim",
         dressCodeDetails: "Konuklarımızdan yaz düğününe uygun şık ve resmi kıyafetler giymelerini rica ediyoruz. Hafif, zarif kumaşlardan oluşan elbiseler, takımlar veya özenli kombinler tercih edebilirsiniz. Lütfen kot pantolon veya spor ayakkabı gibi günlük kıyafetlerden kaçının.",
         title: "Düğün Detayları",

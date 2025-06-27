@@ -42,6 +42,11 @@ export default {
         weddingPhotosDesc: "Efter vårt bröllop kommer vi att uppdatera detta galleri med foton från vår speciella dag. Kom tillbaka snart!",
     },
     details: {
+        registry: "Presentlista",
+        registryInfo: "Din närvaro i sig betyder allt för oss. Men om du vill bidra har vi skapat en önskelista som kan ge lite vägledning. Vi uppskattar din omtanke och generositet.",
+        swishButton: "Tryck här för att kopiera Swish-numret",
+        swishNumber: "0739527224",
+        payPal: "PayPal",
         dressCodeDescription: "Formell sommarklädsel",
         dressCodeDetails: "Vi ber våra gäster att bära formella kläder som passar för ett sommarbröllop. Tänk lätta, eleganta tyger och stilrena plagg – kostymer, klänningar eller matchande outfits som är både bekväma och uppklädda. Undvik gärna vardagskläder som jeans och sneakers.",
         title: "Bröllopsinformation",

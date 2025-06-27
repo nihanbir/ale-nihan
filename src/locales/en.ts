@@ -42,6 +42,11 @@ export default {
         weddingPhotosDesc: "After our wedding, we'll update this gallery with photos from our special day. Check back soon!",
     },
     details: {
+        registry: "Registry",
+        registryInfo: "Your presence alone means the world to us. However, if you wish to contribute, we have created a registry to help guide you. We appreciate your thoughtfulness and generosity.",
+        swishButton: "Press here to copy the swish number",
+        swishNumber: "0739527224",
+        payPal: "Paypal",
         dressCodeDescription: "Formal summer attire",
         dressCodeDetails:"We kindly ask our guests to wear formal clothing suitable for a summer celebration. Think light, elegant fabrics and polished looks – suits, dresses, or coordinated outfits that are comfortable yet dressy. Please avoid casual wear such as jeans or sneakers.",
         title: "Wedding Details",

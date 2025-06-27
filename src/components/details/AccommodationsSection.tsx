@@ -20,8 +20,11 @@ const AccommodationsSection: React.FC = () => {
             {t('details.hotelInfo')}
           </p>
           
-          <Link to="https://www.fredriksborghotel.se/">
-            <Button className="bg-wedding-primary/50 text-wedding-dark hover:bg-wedding-accent/50   transition-all">
+          <Link 
+           to="https://www.fredriksborghotel.se/"
+           target="_blank"
+           rel="noopener noreferrer">
+            <Button className="bg-wedding-primary/50 text-wedding-dark hover:bg-wedding-accent/50 transition-all">
               Fredriksborg Website
             </Button>
           </Link>
