@@ -22,6 +22,16 @@ import {
 
 const Index = () => {
   const { t } = useLanguage();
+  const { toast } = useToast();
+
+  useEffect(() => {
+    // Show toast notification when component mounts
+    toast({
+      title: t('common.rsvpReminder'),
+      description: t('details.lastDayRSVP'),
+      duration: 10000, // Display for 10 seconds
+    });
+  }, [toast, t]);
 
   return (
       <div className="min-h-screen flex flex-col">
