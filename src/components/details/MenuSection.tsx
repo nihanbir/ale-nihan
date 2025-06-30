@@ -1,9 +1,8 @@
-
 import React from 'react';
 import AnimatedSection from '@/components/shared/AnimatedSection';
 import { Utensils, Music } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { CEREMONY_DETAILS, RECEPTION_DETAILS } from '@/constants/wedding';
+import { CEREMONY_DETAILS, RECEPTION_DETAILS, PARTY_DETAILS } from '@/constants/wedding';
 
 const MenuSection: React.FC = () => {
   const { t } = useLanguage();
@@ -67,21 +66,14 @@ const MenuSection: React.FC = () => {
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-wedding-primary rounded-full mt-2 mr-2"></div>
                   <div>
-                    <p className="font-medium">{t('details.ceremony')} ({CEREMONY_DETAILS.time} - 17:00)</p>
-                    <p className="text-wedding-muted text-sm">{t('details.ceremonyMusic')}</p>
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <div className="w-2 h-2 bg-wedding-primary rounded-full mt-2 mr-2"></div>
-                  <div>
-                    <p className="font-medium">{t('details.dinner')} ({RECEPTION_DETAILS.time} - 21:00)</p>
+                    <p className="font-medium">{t('details.dinner')} ({RECEPTION_DETAILS.time})</p>
                     <p className="text-wedding-muted text-sm">{t('details.dinnerMusic')}</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-wedding-primary rounded-full mt-2 mr-2"></div>
                   <div>
-                    <p className="font-medium">{t('details.dancing')} (21:00 - 00:30)</p>
+                    <p className="font-medium">{t('details.dancing')} ({PARTY_DETAILS.time})</p>
                     <p className="text-wedding-muted text-sm">{t('details.dancingDescription')}</p>
                   </div>
                 </li>

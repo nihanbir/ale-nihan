@@ -4,7 +4,7 @@ import AnimatedSection from '@/components/shared/AnimatedSection';
 import WeddingDetailsCard from '@/components/shared/WeddingDetailsCard';
 import { Calendar, Clock, MapPin } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { CEREMONY_DETAILS, RECEPTION_DETAILS } from '@/constants/wedding';
+import { CEREMONY_DETAILS, PARTY_DETAILS, RECEPTION_DETAILS } from '@/constants/wedding';
 
 const ScheduleSection: React.FC = () => {
   const { t } = useLanguage();
@@ -56,6 +56,28 @@ const ScheduleSection: React.FC = () => {
                       icon: <MapPin className="h-5 w-5" />,
                       title: RECEPTION_DETAILS.venue,
                       description: RECEPTION_DETAILS.address
+                    }
+                  ]}
+              />
+            </div>
+          </AnimatedSection>
+
+          <AnimatedSection animation="slide-up" delay={400}>
+            <div className="bg-wedding-secondary/20 rounded-lg p-8 shadow-soft relative overflow-hidden">
+              <WeddingDetailsCard
+                  title={t('After Party')}
+                  icon={<Calendar className="text-wedding-primary h-5 w-5" />}
+                  description={PARTY_DETAILS.description}
+                  items={[
+                    {
+                      icon: <Clock className="h-5 w-5" />,
+                      title: PARTY_DETAILS.time,
+                      description: t('details.weddingDay')
+                    },
+                    {
+                      icon: <MapPin className="h-5 w-5" />,
+                      title: PARTY_DETAILS.venue,
+                      description: PARTY_DETAILS.address
                     }
                   ]}
               />
