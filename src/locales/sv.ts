@@ -48,7 +48,7 @@ export default {
         swishNumber: "0739527224",
         payPal: "PayPal",
         dressCodeDescription: "Formell sommarklädsel och markanpassade skor",
-        dressCodeDetails: "Vi ber våra gäster att bära formella kläder som passar för ett sommarbröllop. Tänk lätta, eleganta tyger och stilrena plagg – kostymer, klänningar eller matchande outfits som är både bekväma och uppklädda. Undvik gärna vardagskläder som jeans och sneakers. Vi rekommenderar skor som fungerar bra på ojämnt underlag som gräs, grus och sluttningar. Klackar kan vara svåra – välj gärna kilklackar, blockklackar eller eleganta flats för bättre komfort och balans.",
+        dressCodeDetails: "Vi ber våra gäster att bära formella kläder som passar för ett sommarbröllop. Tänk lätta, eleganta tyger och stilrena plagg – kostymer, klänningar eller matchande outfits som är både bekväma och uppklädda. Vi rekommenderar skor som fungerar bra på ojämnt underlag som gräs, grus och sluttningar. Klackar kan vara svåra – välj gärna kilklackar, blockklackar eller eleganta flats för bättre komfort och balans. Undvik gärna vardagskläder som jeans och sneakers.",
         title: "Bröllopsinformation",
         description: "Här är allt du behöver veta om vår speciella dag.",
         lastDayRsvp: "Information om klädkod, incheckning och utcheckningstider, presenter och mer finns i avsnittet med detaljer.",

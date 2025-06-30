@@ -48,7 +48,7 @@ export default {
         swishNumber: "0739527224",
         payPal: "Paypal",
         dressCodeDescription: "Formal summer attire and ground-friendly footwear",
-        dressCodeDetails:"We kindly ask our guests to wear formal clothing suitable for a summer celebration. Think light, elegant fabrics and polished looks – suits, dresses, or coordinated outfits that are comfortable yet dressy. Please avoid casual wear such as jeans or sneakers. We recommend wearing shoes suitable for walking on uneven terrain such as grass, dirt paths, and gentle slopes. Heels may be tricky – consider wedges, block heels, or stylish flats for comfort and stability.",
+        dressCodeDetails:"We kindly ask our guests to wear formal clothing suitable for a summer celebration. Think light, elegant fabrics and polished looks – suits, dresses, or coordinated outfits that are comfortable yet dressy. We recommend wearing shoes suitable for walking on uneven terrain such as grass, dirt paths, and gentle slopes. Heels may be tricky – consider wedges, block heels, or stylish flats for comfort and stability. Please avoid casual wear such as jeans or sneakers.",
         title: "Wedding Details",
         description: "Here's everything you need to know about our special day.",
         lastDayRSVP: "Information about the dress code, check-in check-out times, gifts, and more in the details section.",

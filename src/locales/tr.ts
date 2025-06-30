@@ -50,7 +50,7 @@ export default {
         swishNumber: "0739527224",
         payPal: "PayPal",
         dressCodeDescription: "Yazlık şık giyim ve zemine uygun ayakkabılar",
-        dressCodeDetails: "Konuklarımızdan yaz düğününe uygun şık ve resmi kıyafetler giymelerini rica ediyoruz. Hafif, zarif kumaşlardan oluşan elbiseler, takımlar veya özenli kombinler tercih edebilirsiniz. Lütfen kot pantolon veya spor ayakkabı gibi günlük kıyafetlerden kaçının. Toprak, çimen ve eğimli alanlarda yürümeye uygun ayakkabılar giymenizi öneririz. İnce topuklu ayakkabılar zorlayıcı olabilir – bunun yerine dolgu topuk, kalın topuk veya şık düz ayakkabılar tercih edebilirsiniz.",
+        dressCodeDetails: "Konuklarımızdan yaz düğününe uygun şık ve resmi kıyafetler giymelerini rica ediyoruz. Hafif, zarif kumaşlardan oluşan elbiseler, takımlar veya özenli kombinler tercih edebilirsiniz. Toprak, çimen ve eğimli alanlarda yürümeye uygun ayakkabılar giymenizi öneririz. İnce topuklu ayakkabılar zorlayıcı olabilir – bunun yerine dolgu topuk, kalın topuk veya şık düz ayakkabılar tercih edebilirsiniz. Lütfen kot pantolon veya spor ayakkabı gibi günlük kıyafetlerden kaçının.",
         title: "Düğün Detayları",
         description: "Özel günümüz hakkında bilmeniz gereken her şey burada.",
         lastDayRSVP: "Kıyafet kodu, giriş-çıkış saatleri, hediyeler ve daha fazlası hakkında bilgi için lütfen detaylar bölümünü kontrol edin.",
