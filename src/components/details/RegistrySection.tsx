@@ -43,8 +43,8 @@ const RegistrySection: React.FC = () => {
              target="_blank"
              rel="noopener noreferrer">
                 <Button className="bg-wedding-primary/50 text-wedding-dark hover:bg-wedding-accent/50 transition-all">
-                      PayPal
                   <FontAwesomeIcon icon={faPaypal} />
+                      PayPal
                 </Button>        
             </Link>
           </div>

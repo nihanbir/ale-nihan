@@ -2,7 +2,7 @@ import React from 'react';
 import AnimatedSection from '@/components/shared/AnimatedSection';
 import { Utensils, Music } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { CEREMONY_DETAILS, RECEPTION_DETAILS, PARTY_DETAILS } from '@/constants/wedding';
+import { RECEPTION_DETAILS, PARTY_DETAILS } from '@/constants/wedding';
 
 const MenuSection: React.FC = () => {
   const { t } = useLanguage();

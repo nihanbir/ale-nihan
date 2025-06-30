@@ -39,7 +39,7 @@ export default {
         preWedding: "Pre-Wedding",
         noPhotos: "No photos found in this category.",
         weddingPhotos: "Wedding Day Photos Coming Soon",
-        weddingPhotosDesc: "After our wedding, we'll update this gallery with photos from our special day. Check back soon!",
+        weddingPhotosDesc: "After our wedding, we’ll update this gallery with photos from our special day – captured beautifully by our talented photographer Nadiia. Check back soon!",
     },
     details: {
         registry: "Registry",

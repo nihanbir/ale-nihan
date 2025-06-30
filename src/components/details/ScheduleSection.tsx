@@ -39,7 +39,7 @@ const ScheduleSection: React.FC = () => {
               />
             </div>
           </AnimatedSection>
-          
+
           <AnimatedSection animation="slide-up" delay={400}>
             <div className="bg-wedding-secondary/20 rounded-lg p-8 shadow-soft relative overflow-hidden">
               <WeddingDetailsCard

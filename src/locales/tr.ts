@@ -41,7 +41,7 @@ export default {
         preWedding: "Düğün Öncesi",
         noPhotos: "Bu kategoride fotoğraf bulunamadı.",
         weddingPhotos: "Düğün Günü Fotoğrafları Yakında",
-        weddingPhotosDesc: "Düğünümüzden sonra, bu galeriyi özel günümüzden fotoğraflarla güncelleyeceğiz. Yakında tekrar kontrol edin!",
+        weddingPhotosDesc: "Düğünümüzün ardından bu galeriyi özel günümüzden karelerle güncelleyeceğiz – yetenekli fotoğrafçımız Nadiia tarafından özenle çekilmiş. Yakında tekrar göz atmayı unutmayın!",
     },
     details: {
         registery: "Hediye Listesi",

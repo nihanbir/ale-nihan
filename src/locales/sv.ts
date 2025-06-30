@@ -39,7 +39,7 @@ export default {
         preWedding: "Före Bröllopet",
         noPhotos: "Inga foton hittades i denna kategori.",
         weddingPhotos: "Bröllopsdagsfoton Kommer Snart",
-        weddingPhotosDesc: "Efter vårt bröllop kommer vi att uppdatera detta galleri med foton från vår speciella dag. Kom tillbaka snart!",
+        weddingPhotosDesc: "Efter bröllopet kommer vi att uppdatera detta galleri med bilder från vår stora dag – vackert fångade av vår duktiga fotograf Nadiia. Titta gärna in igen snart!",
     },
     details: {
         registry: "Presentlista",
