@@ -22,7 +22,7 @@ export const RECEPTION_DETAILS = {
     description: ""
 };
 export const PARTY_DETAILS = {
-    time: "21:00 - 12:30",
+    time: "21:00 - 00:30",
     venue: PARTY_VENUE,
     address: WEDDING_ADDRESS,
     description: ""
