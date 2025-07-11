@@ -73,7 +73,7 @@ export default {
         dancing: "Dans",
         ceremonyMusic: "",
         dinnerMusic: "Mjuk bakgrundsjazzmusik, tal",
-        dancingDescription: "Dans på det historiska slottet",
+        dancingDescription: "Dans på det historiska slottet med DJ Maylo Ma",
         roomDescription: "Varje rum har ett privat badrum och en bekväm dubbelsäng. Vänligen meddela oss om du har några speciella önskemål.",
         checkIn: "Incheckning",
         checkOut: "Utcheckning",

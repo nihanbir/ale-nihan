@@ -75,7 +75,7 @@ export default {
         dancing: "Dans",
         ceremonyMusic: "",
         dinnerMusic: "Yumuşak arka plan caz müzik, konuşmalar",
-        dancingDescription: "Tarihi şatoda dans",
+        dancingDescription: " DJ Maylo Ma ile tarihi şatoda dans",
         roomDescription: "Her odada özel banyo ve rahat bir çift kişilik yatak bulunmaktadır. Herhangi bir özel isteğiniz varsa lütfen bize bildirin.",
         checkIn: "Otel Giriş",
         checkOut: "Otel Çıkış",
